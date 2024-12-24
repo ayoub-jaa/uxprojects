@@ -3997,3 +3997,22 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+	/* Style de la photo dans la section About */
+	.about-photo {
+	    width: 150px; /* Largeur de l'image */
+	    height: 150px; /* Hauteur de l'image */
+	    border-radius: 50%; /* Forme circulaire */
+	    margin-right: 20px; /* Espacement à droite de l'image */
+	    object-fit: cover; /* Garantit que l'image s'ajuste sans déformation */
+	}
+	
+	/* Si tu veux une disposition en ligne (image + texte) */
+	.about-content {
+	    display: flex;
+	    align-items: center; /* Aligne la photo et le texte sur la même ligne */
+	}
+	
+	.about-content img {
+	    margin-right: 20px; /* Espacement entre l'image et le texte */
+	}
