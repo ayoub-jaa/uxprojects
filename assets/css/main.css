@@ -194,8 +194,8 @@ header .btn {
 
 /* Style pour la photo de profil */
 .about-photo {
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%; /* Forme circulaire */
     margin-right: 20px; /* Espacement à droite de la photo */
     object-fit: cover; /* Garantit que la photo reste proportionnée */
