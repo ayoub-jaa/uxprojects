@@ -146,25 +146,42 @@ header .btn {
 }
 
 /* Connect Section */
-.connect {
-    text-align: center;
-    margin-top: 50px;
+.connect-with-me {
+  text-align: center;
+  margin: 20px 0;
 }
 
-.connect a {
-    font-size: 30px;
-    margin: 0 15px;
-    color: #333;
-    transition: color 0.3s ease;
+.connect-with-me h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
 }
 
-.connect a:hover {
-    color: #0077b5;
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-.connect a.fa-envelope:hover {
-    color: #ea4335;
+.social-icons a {
+  font-size: 2rem;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
+
+.social-icons a:hover {
+  color: #0077b5; /* Couleur pour LinkedIn, modifie si nécessaire */
+}
+
+.icon-linkedin:hover {
+  color: #0077b5; /* Couleur spécifique LinkedIn */
+}
+
+.icon-mail:hover {
+  color: #e44d26; /* Couleur spécifique Mail (rouge) */
+}
+
+/* Assurez-vous d'intégrer la bibliothèque FontAwesome pour les icônes */
 
 /* Footer */
 footer {
