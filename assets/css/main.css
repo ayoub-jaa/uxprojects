@@ -181,6 +181,14 @@ header .btn {
   color: #e44d26; /* Couleur spécifique Mail (rouge) */
 }
 
+.icon-linkedin {
+  color: #ffffff; /* Couleur spécifique LinkedIn */
+}
+
+.icon-mail {
+  color: #ffffff; /* Couleur spécifique Mail (rouge) */
+}
+
 /* Assurez-vous d'intégrer la bibliothèque FontAwesome pour les icônes */
 
 /* Footer */
