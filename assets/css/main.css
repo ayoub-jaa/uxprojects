@@ -165,6 +165,7 @@ header .btn {
 
 .project-item .overlay a {
     color: white;
+	font-weight: bold;
 }
 
 /* Connect Section */
