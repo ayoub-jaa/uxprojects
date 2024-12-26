@@ -158,6 +158,15 @@ header .btn {
     font-size: 1.5em;
 }
 
+.project-item .overlay p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.project-item .overlay a {
+    color: white;
+}
+
 /* Connect Section */
 .connect-with-me {
   text-align: center;
