@@ -190,6 +190,29 @@ header .btn {
   color: #ffffff; /* Couleur spécifique Mail (rouge) */
 }
 
+/* Style pour la photo de profil */
+.about-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Forme circulaire */
+    margin-right: 20px; /* Espacement à droite de la photo */
+    object-fit: cover; /* Garantit que la photo reste proportionnée */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour un effet visuel */
+}
+
+/* Organisation de la section About Me */
+.about-content {
+    display: flex;
+    align-items: center; /* Aligne verticalement la photo et le texte */
+    gap: 20px; /* Espacement entre les éléments */
+}
+
+.about-content p {
+    flex: 1; /* Permet au texte de prendre l'espace restant */
+    margin: 0; /* Supprime les marges par défaut des paragraphes */
+}
+
+
 /* Assurez-vous d'intégrer la bibliothèque FontAwesome pour les icônes */
 
 /* Footer */
