@@ -22,6 +22,10 @@ body {
     padding: 20px;
 }
 
+.container h2 {
+    font-size: 40px;
+}
+
 /* Header Section */
 /* Styles pour le Header */
 header {
