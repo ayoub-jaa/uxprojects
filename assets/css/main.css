@@ -90,14 +90,21 @@ header .btn {
 	font-size: 25px;
 }
 
+/* Bouton LinkedIn */
 .about-btn {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background: #333;
+    background: #0077b5; /* Couleur LinkedIn */
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.about-btn:hover {
+    background: #005582; /* Couleur plus foncée au survol */
 }
 
 /* Projects Section */
