@@ -36,14 +36,6 @@ header {
     position: relative;
 }
 
-header-prof {
-    text-align: center;
-    padding: 150px 20px;
-    background: url('/uxprojects/assets/images/professional.jpg') no-repeat center center/cover;
-    color: white;
-    position: relative;
-}
-
 header h1, header p {
     margin: 0;
     z-index: 2;
@@ -68,6 +60,46 @@ header p {
 }
 
 header .btn {
+    padding: 10px 20px;
+    background: #0077b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Styles pour le Header Profesionnal*/
+header-prof {
+    text-align: center;
+    padding: 150px 20px;
+    background: url('/uxprojects/assets/images/professional.jpg') no-repeat center center/cover;
+    color: white;
+    position: relative;
+}
+
+header-prof h1, header-prof p {
+    margin: 0;
+    z-index: 2;
+    position: relative;
+	font-size: 60px;
+}
+
+header-prof::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Assombrir l'image */
+    z-index: 1;
+}
+
+
+header-prof p {
+    margin: 10px 0 20px;
+}
+
+header-prof .btn {
     padding: 10px 20px;
     background: #0077b5;
     color: white;
