@@ -255,6 +255,21 @@ header .btn {
 	font-size: 25px;
 }
 
+.about-logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Forme circulaire */
+    margin-right: 20px; /* Espacement à droite de la photo */
+    object-fit: cover; /* Garantit que la photo reste proportionnée */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour un effet visuel */
+}
+
+.project-item-prof{
+    position: relative;
+    overflow: hidden;
+	width: 50%;
+}
+
 /* Assurez-vous d'intégrer la bibliothèque FontAwesome pour les icônes */
 
 /* Footer */
