@@ -247,6 +247,13 @@ header .btn {
 	font-size: 25px;
 }
 
+/* Pour le fichier profesionnal.html */
+.project-description p
+{
+    flex: 1; /* Permet au texte de prendre l'espace restant */
+    margin: 0; /* Supprime les marges par défaut des paragraphes */
+	font-size: 25px;
+}
 
 /* Assurez-vous d'intégrer la bibliothèque FontAwesome pour les icônes */
 
