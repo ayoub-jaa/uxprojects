@@ -73,6 +73,13 @@ header .btn {
     border-radius: 5px;
 }
 
+/* Enlever l'ombre des logos dans le header */
+header .logos {
+    position: relative;
+    z-index: 2;  /* Cela s'assure que les logos soient au-dessus du fond assombri */
+}
+
+
 /* About Section */
 .about-content {
     display: flex;
@@ -281,8 +288,8 @@ header .btn {
 }
 
 .logo-circle {
-    width: 50px;  /* Ajustez la taille des logos selon vos préférences */
-    height: 50px;
+    width: 100px;  /* Ajustez la taille des logos selon vos préférences */
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
     cursor: pointer;
