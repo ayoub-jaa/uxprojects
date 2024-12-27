@@ -36,6 +36,14 @@ header {
     position: relative;
 }
 
+header-prof {
+    text-align: center;
+    padding: 150px 20px;
+    background: url('/uxprojects/assets/images/professional.jpg') no-repeat center center/cover;
+    color: white;
+    position: relative;
+}
+
 header h1, header p {
     margin: 0;
     z-index: 2;
