@@ -85,6 +85,11 @@ header .btn {
     display: block;
 }
 
+.about-content-block ul,li
+{
+    font-size: 25px;
+}
+
 .about-photo {
     width: 300px;
     height: 300px;
