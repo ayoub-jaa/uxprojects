@@ -300,6 +300,30 @@ header .logos {
     transform: scale(1.1);  /* Agrandissement léger au survol */
 }
 
+/* Style du bouton pour remonter */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px; /* Positionné à 20px du bas */
+    right: 20px; /* Positionné à 20px de la droite */
+    background-color: #5c3a47; /* Couleur du fond du bouton (rouge comme le footer) */
+    color: white; /* Couleur du chevron (blanc) */
+    border-radius: 50%; /* Pour le rendre circulaire */
+    padding: 15px; /* Taille du bouton */
+    font-size: 20px; /* Taille du chevron */
+    cursor: pointer; /* Curseur pointer pour montrer que c'est un bouton */
+    z-index: 1000; /* S'assurer qu'il reste au-dessus des autres éléments */
+    display: none; /* Caché par défaut */
+    transition: opacity 0.3s ease;
+}
+
+.scroll-to-top:hover {
+    background-color: #e44d26; /* Effet au survol (rouge plus clair) */
+}
+
+.scroll-to-top i {
+    pointer-events: none; /* Pour éviter de cliquer accidentellement sur l'icône */
+}
+
 
 /* Footer */
 footer {
