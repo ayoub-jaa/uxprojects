@@ -350,7 +350,7 @@ header .logos {
     position: sticky; /* Reste en haut lors du scroll */
     top: 0; /* Fixée en haut de la page */
     z-index: 1000; /* Par-dessus les autres éléments */
-    background-color: #fff;
+    background-color: #5c3a47;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid #ddd;
 }
@@ -376,7 +376,7 @@ header .logos {
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
-    color: #333;
+    color: #ffffff;
     transition: color 0.3s ease;
 }
 
