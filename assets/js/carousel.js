@@ -1,8 +1,20 @@
-// JavaScript pour le carrousel
-document.querySelector('.carousel').addEventListener('wheel', function(e) {
-    if (e.deltaY > 0) {
-        this.scrollLeft += 300;  // Scroll to the right
-    } else {
-        this.scrollLeft -= 300;  // Scroll to the left
+let slideIndex = 0; // Commence à l'index 0
+
+// Fonction pour déplacer le carrousel
+function moveSlide(step) {
+    const slides = document.querySelectorAll('.carousel-item');
+    slideIndex += step;
+    
+    // Si on est à la fin, revenir au début
+    if (slideIndex >= slides.length) {
+        slideIndex = 0;
     }
-});
+
+    // Si on est au début, aller à la fin
+    if (slideIndex < 0) {
+        slideIndex = slides.length - 1;
+    }
+
+    // Mettre à jour la position du carrousel
+    document.querySelector('.carousel').style.transform = `translateX(-${slideIndex * 100}%)`;
+}
