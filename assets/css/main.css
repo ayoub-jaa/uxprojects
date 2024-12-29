@@ -79,6 +79,30 @@ header .logos {
     z-index: 2;  /* Cela s'assure que les logos soient au-dessus du fond assombri */
 }
 
+/* Navigation dans le projet */
+.project-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.project-nav ul li {
+    margin: 0 15px;
+}
+
+.project-nav ul li a {
+    text-decoration: none;
+    color: #0077b5;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.project-nav ul li a:hover {
+    color: #005582;
+}
+
 
 /* About Section */
 .about-content {
@@ -194,7 +218,24 @@ header .logos {
 
 .project-detail-o365 p {
 	font-size: 25px;
+	max-width: 800px;
+    margin: 0 auto 20px;
+    line-height: 1.8;
 }
+
+.project-detail-o365 ul {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    line-height: 1.8;
+    padding-left: 20px;
+}
+
+.project-detail-o365 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
 
 /* Connect Section */
 .connect-with-me {
@@ -317,11 +358,16 @@ header .logos {
     cursor: pointer; /* Curseur pointer pour montrer que c'est un bouton */
     z-index: 1000; /* S'assurer qu'il reste au-dessus des autres éléments */
     display: none; /* Caché par défaut */
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 .scroll-to-top:hover {
     background-color: #e44d26; /* Effet au survol (rouge plus clair) */
+}
+
+.scroll-to-top.show {
+    opacity: 1;
+    visibility: visible;
 }
 
 .scroll-to-top i {
