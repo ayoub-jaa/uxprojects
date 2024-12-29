@@ -345,6 +345,46 @@ header .logos {
     transform: scale(1.1);  /* Agrandissement léger au survol */
 }
 
+/* Barre de navigation fixe */
+.fixed-nav {
+    position: sticky; /* Reste en haut lors du scroll */
+    top: 0; /* Fixée en haut de la page */
+    z-index: 1000; /* Par-dessus les autres éléments */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #ddd;
+}
+
+.fixed-nav .container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.fixed-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.fixed-nav ul li {
+    margin: 0 15px;
+}
+
+.fixed-nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.fixed-nav ul li a:hover {
+    color: #0077b5;
+}
+
+
 /* Style du bouton pour remonter */
 .scroll-to-top {
     position: fixed;
