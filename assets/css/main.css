@@ -322,6 +322,17 @@ header .logos {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour un effet visuel */
 }
 
+/* Styles pour l'image dans la section Problem Statement */
+.problem-statement img {
+    max-width: 100%; /* L'image sera responsive et s'ajustera à la largeur de son conteneur */
+    height: auto; /* Garder les proportions de l'image */
+    display: block; /* Éviter les marges ou espaces supplémentaires autour de l'image */
+    margin: 20px 0; /* Ajouter un espacement vertical autour de l'image */
+    border: 1px solid #ddd; /* Ajouter une bordure fine pour mieux délimiter l'image */
+    border-radius: 8px; /* Ajouter des bords arrondis pour un effet plus moderne */
+}
+
+
 /* Assurez-vous d'intégrer la bibliothèque FontAwesome pour les icônes */
 
 /* Styles pour les logos ronds dans le header */
