@@ -231,7 +231,7 @@ header .logos {
 }
 
 .project-detail-o365 h2 {
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 20px;
     color: #333;
 }
