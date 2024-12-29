@@ -37,7 +37,7 @@ body {
 header {
     text-align: center;
     padding: 150px 20px;
-    background: url('/uxprojects/assets/images/header-bg.jpg') no-repeat center center/cover;
+    background: url('/assets/images/header-bg.jpg') no-repeat center center/cover;
     color: white;
     position: relative;
 }
@@ -418,7 +418,7 @@ header .logos {
     justify-content: center; /* Centre l'image horizontalement */
     align-items: center; /* Centre l'image verticalement (si la section a une hauteur définie) */
     flex-direction: column; /* Permet de centrer verticalement dans le cas où plusieurs éléments sont présents */
-    text-align: center; /* Pour s'assurer que le texte ou autres éléments sont centrés aussi */
+    /* text-align: center; */ /* Pour s'assurer que le texte ou autres éléments sont centrés aussi */
 }
 
 /* Conteneur pour l'image de la section Problem Statement */
