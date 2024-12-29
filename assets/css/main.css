@@ -192,6 +192,10 @@ header .logos {
 	font-weight: bold;
 }
 
+.project-detail-o365 p {
+	font-size: 25px;
+}
+
 /* Connect Section */
 .connect-with-me {
   text-align: center;
