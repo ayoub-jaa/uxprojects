@@ -324,13 +324,14 @@ header .logos {
 
 /* Styles pour l'image dans la section Problem Statement */
 .problem-statement img {
-    max-width: 100%; /* L'image sera responsive et s'ajustera à la largeur de son conteneur */
-    height: auto; /* Garder les proportions de l'image */
-    display: block; /* Éviter les marges ou espaces supplémentaires autour de l'image */
-    margin: 20px 0; /* Ajouter un espacement vertical autour de l'image */
-    border: 1px solid #ddd; /* Ajouter une bordure fine pour mieux délimiter l'image */
-    border-radius: 8px; /* Ajouter des bords arrondis pour un effet plus moderne */
+    max-width: 100%; /* L'image s'ajuste à la largeur du conteneur */
+    height: auto; /* Maintient les proportions de l'image */
+    display: block; /* Permet à l'image d'être un élément de type block */
+    margin: 20px auto; /* Centre l'image horizontalement (auto pour gauche et droite) */
+    border: 1px solid #ddd; /* Bordure fine pour délimiter l'image */
+    border-radius: 8px; /* Coins arrondis pour un effet moderne */
 }
+
 
 
 /* Assurez-vous d'intégrer la bibliothèque FontAwesome pour les icônes */
