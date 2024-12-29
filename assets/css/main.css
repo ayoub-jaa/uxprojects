@@ -331,12 +331,24 @@ header .logos {
     text-align: center; /* Pour s'assurer que le texte ou autres éléments sont centrés aussi */
 }
 
-.problem-statement img {
-    max-width: 100%; /* S'assure que l'image ne dépasse pas la largeur du conteneur */
-    height: auto; /* Maintient les proportions de l'image */
-    border: 1px solid #ddd; /* Bordure fine pour délimiter l'image */
-    border-radius: 8px; /* Coins arrondis pour un effet moderne */
+/* Conteneur pour l'image de la section Problem Statement */
+.problem-screenshot {
+    display: flex; /* Active Flexbox */
+    flex-direction: column; /* Les éléments sont empilés verticalement */
+    align-items: center; /* Centre horizontalement l'image */
+    justify-content: center; /* Centre verticalement (si la section a une hauteur définie) */
+    text-align: center; /* Assure que le texte à l'intérieur est aussi centré */
+    margin-top: 30px; /* Ajoute de l'espace au-dessus de l'image */
 }
+
+/* Style de l'image pour s'assurer qu'elle est bien responsive */
+.problem-screenshot img {
+    max-width: 100%; /* L'image ne dépasse pas la largeur du conteneur */
+    height: auto; /* Maintien les proportions de l'image */
+    border: 1px solid #ddd; /* Bordure fine pour l'image */
+    border-radius: 8px; /* Coins arrondis pour une touche esthétique */
+}
+
 
 
 /* Assurez-vous d'intégrer la bibliothèque FontAwesome pour les icônes */
