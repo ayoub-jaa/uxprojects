@@ -1,7 +1,7 @@
 let slideIndex2 = 0; // Commence à l'index 0
 
 // Fonction pour déplacer le carrousel
-function moveSlide(step) {
+function moveSlide2(step) {
     const slides = document.querySelectorAll('.carousel2-item');
     slideIndex2 += step;
 
@@ -20,7 +20,7 @@ function moveSlide(step) {
 }
 
 // Fonction pour naviguer directement à un persona spécifique (via la vignette)
-function moveToSlide(index2) {
+function moveToSlide2(index2) {
     slideIndex2 = index2;
     document.querySelector('.carousel2').style.transform = `translateX(-${slideIndex2 * 100}%)`;
 }
