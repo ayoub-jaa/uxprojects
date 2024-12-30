@@ -284,8 +284,21 @@ header .logos {
     margin-bottom: 20px;
 }
 
+.persona-image2 {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
 /* Style des détails du persona */
 .persona-details {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Style des détails du persona */
+.persona-details2 {
     font-size: 18px;
     color: #333;
 }
