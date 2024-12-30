@@ -735,3 +735,18 @@ footer {
     background-color: #5c3a47;
     color: white;
 }
+
+/* Partie mobile*/
+@media (max-width: 480px) {
+	.about-content2 {
+		display: flex;
+		align-items: center;
+		padding: 0;
+		justify-content: center;
+	}
+	.fab fa-linkedin {
+		margin-left: 5px;
+	}
+
+
+}
