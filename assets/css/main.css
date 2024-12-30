@@ -12,6 +12,13 @@ html {
     scroll-behavior: smooth;
 }
 
+.fa-chevron-down {
+  font-size:70px; /* Augmenter la taille pour tester */
+  color:white;    /* Assurez-vous que l'icône est visible */
+  position:relative;
+  z-index:2; 
+}
+
 
 /* General Body Styling */
 body {
