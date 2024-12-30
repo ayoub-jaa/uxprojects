@@ -255,6 +255,27 @@ header .logos {
     text-align: center;
 }
 
+/* Style du conteneur du carrousel2 */
+.carousel2-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Style du carrousel */
+.carousel2 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Style des éléments du carrousel */
+.carousel2-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
 /* Style de l'image du persona */
 .persona-image {
     width: 80%;
