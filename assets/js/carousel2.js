@@ -2,7 +2,7 @@ let slideIndex = 0; // Commence à l'index 0
 
 // Fonction pour déplacer le carrousel
 function moveSlide(step) {
-    const slides = document.querySelectorAll('.carousel-item2');
+    const slides = document.querySelectorAll('.carousel2-item');
     slideIndex += step;
 
     // Si on est à la fin, revenir au début
