@@ -329,6 +329,32 @@ header .logos {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+/* Style des boutons de navigation du 2e carroussel */
+.prev2, .next2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1;
+}
+
+.prev2 {
+    left: 10px;
+}
+
+.next2 {
+    right: 10px;
+}
+
+.prev2:hover, .next2:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 /* Style des vignettes (petites images de preview) */
 .preview-container {
     display: flex;
