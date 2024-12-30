@@ -1,4 +1,4 @@
-// Carrousel principal
+// Carrousel principal (Premier)
 let slideIndexMain = 0; // Indice pour le premier carrousel
 
 function moveSlideMain(step) {
@@ -25,7 +25,8 @@ function moveToSlideMain(index) {
     document.querySelector('.carousel').style.transform = `translateX(-${slideIndexMain * 100}%)`;
 }
 
-// Carrousel secondaire (nouveau)
+
+// Carrousel secondaire (Deuxième)
 let slideIndexSecondary = 0; // Indice pour le deuxième carrousel
 
 function moveSlideSecondary(step) {
@@ -42,7 +43,7 @@ function moveSlideSecondary(step) {
         slideIndexSecondary = slides.length - 1;
     }
 
-    // Mettre à jour la position du carrousel
+    // Mettre à jour la position du carrousel secondaire
     document.querySelector('.new-carousel').style.transform = `translateX(-${slideIndexSecondary * 100}%)`;
 }
 
