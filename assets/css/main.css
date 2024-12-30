@@ -481,6 +481,53 @@ p {
     border-radius: 4px;
 }
 
+/* Applique les styles aux images dans le carrousel */
+.carousel-item img, .new-carousel-item img {
+    width: 100%;        /* L'image occupe toute la largeur */
+    height: 100%;       /* L'image occupe toute la hauteur du conteneur */
+    object-fit: cover;  /* L'image couvre tout l'espace sans déformation */
+    object-position: center; /* Centrer l'image si elle est recadrée */
+}
+
+/* Carrousel contenant toutes les images */
+.carousel, .new-carousel {
+    display: flex;
+    overflow: hidden;  /* Cache les images qui ne sont pas visibles */
+    width: 100%;       /* Carrousel prend toute la largeur de son conteneur */
+    position: relative;
+}
+
+/* Chaque item du carrousel (une image) */
+.carousel-item, .new-carousel-item {
+    flex: 0 0 100%;     /* Chaque image occupe 100% de la largeur du carrousel */
+    height: auto;       /* Assure une hauteur adaptable */
+    display: flex;
+    justify-content: center;  /* Centrer l'image horizontalement */
+    align-items: center;     /* Centrer l'image verticalement */
+}
+
+/* Si tu utilises des flèches pour faire défiler les images */
+.slick-prev, .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);  /* Fond semi-transparent */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Position des flèches */
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+
 /* Style des flèches */
 .new-prev, .new-next {
     position: absolute;
