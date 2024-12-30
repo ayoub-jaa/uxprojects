@@ -258,7 +258,7 @@ header .logos {
 /* Style du conteneur du carrousel2 */
 .carousel2-container {
     position: relative;
-    width: 80%;
+    /*width: 80%;*/
     margin: 0 auto;
     overflow: hidden;
 }
