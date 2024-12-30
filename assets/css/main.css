@@ -749,11 +749,6 @@ footer {
 		font-size:18px; 
 	}
 	
-	/* About Section */
-	.about-content {
-		display: flex;
-		align-items: center;
-		margin-top: 50px;
-	}
+	
 	
 }
