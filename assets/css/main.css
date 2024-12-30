@@ -512,35 +512,60 @@ p {
     transition: transform 0.5s ease-in-out;
 }
 
-.new-carousel-item {
-    flex: 0 0 100%;  /* Chaque élément prend 100% de la largeur */
-}
-
+/* Conteneur principal du carrousel */
 .carousel, .new-carousel {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%; /* Utilise toute la largeur disponible */
+    max-width: 100%; /* Limite la largeur pour éviter le débordement */
+    position: relative;
 }
 
+/* Les items du carrousel */
+.carousel-item, .new-carousel-item {
+    width: 100%; /* Chaque item occupe toute la largeur du carrousel */
+    display: flex; /* Utilise flexbox pour aligner les images */
+    justify-content: center; /* Centre l'image dans l'item */
+    align-items: center; /* Centre l'image verticalement */
+}
+
+/* Styliser les images */
+.carousel-item img, .new-carousel-item img {
+    width: 100%; /* L'image occupe toute la largeur du conteneur */
+    height: auto; /* Conserve les proportions de l'image */
+    object-fit: cover; /* Couvre tout l'espace sans déformer l'image */
+    border-radius: 10px; /* Ajoute des coins arrondis (optionnel) */
+}
+
+/* Arrows et points de navigation */
 .slick-prev, .slick-next {
-    font-size: 18px; 
-    color: #333;
+    z-index: 1; /* Met les flèches au-dessus des images */
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    color: white; /* Couleur des flèches */
+    border: none; /* Retire les bordures */
+    padding: 10px; /* Espace autour des flèches */
 }
 
 .slick-prev {
-    left: -40px;
+    left: 10px; /* Positionne la flèche précédente */
 }
 
 .slick-next {
-    right: -40px;
+    right: 10px; /* Positionne la flèche suivante */
 }
 
+/* Styles pour les dots */
 .slick-dots {
-    bottom: 10px;
+    bottom: 10px; /* Positionne les points sous le carrousel */
 }
 
-.slick-dots li button:before {
-    font-size: 12px;
-    color: #333;
+.slick-dots li button {
+    background-color: rgba(255, 255, 255, 0.5); /* Couleur des points */
+    border-radius: 50%; /* Forme ronde */
+}
+
+.slick-dots li.slick-active button {
+    background-color: rgba(255, 255, 255, 1); /* Couleur du point actif */
+}
+
 }
 
 
