@@ -7,14 +7,6 @@
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="icon" type="image/png" href="/assets/images/ux-design.png">
-	<!-- Inclure le CSS de Slick -->
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-	<!-- Inclure le JS de Slick -->
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
 </head>
 <body>
 
@@ -265,100 +257,42 @@
 				</section>
 
 
-				<section id="solution">
-					<h2>Prototypes, Solution & Features</h2>
+                <section id="solution">
+					<h2>Solution & Features</h2>
+					<ul>
+						<li>Pre-filled internal data from the HR system to minimize errors.</li>
+						<li>Admin interface for creating internal and external accounts, with license and cost tracking.</li>
+						<li>Manager notifications for account expiration and automatic account extension for external users.</li>
+						<li>Creation and management of shared and generic accounts, including naming conventions.</li>
+					</ul>
+				</section>
+
+				<section id="prototypes">
+					<h2>Prototypes & Mockups</h2>
 					
 					<!-- Interactive Prototype Embed -->
 					<div class="prototype">
-						<ul>
-							<li>Pre-filled internal data from the HR system to minimize errors.</li>
-							<li>Admin interface for creating internal and external accounts, with license and cost tracking.</li>
-							<li>Manager notifications for account expiration and automatic account extension for external users.</li>
-							<li>Creation and management of shared and generic accounts, including naming conventions.</li>
-						</ul>
-						
 						<h3>Interactive Prototype</h3>
 						<p>Explore the interactive prototype created with Figma, which simulates the full user journey of account management and validation.</p>
 						<!-- Embedding the Figma prototype -->
 						<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" 
-								src="https://embed.figma.com/design/pIMAxzMJqVzMqT1BbJdpaA/GPA-Maquette?node-id=1-2&embed-host=share" 
+								src="https://embed.figma.com/proto/pIMAxzMJqVzMqT1BbJdpaA/Untitled?page-id=1%3A2&node-id=1-11417&p=f&viewport=3124%2C2814%2C0.12&scaling=min-zoom&content-scaling=fixed&embed-host=share" 
 								allowfullscreen></iframe>
 					</div>
-					
+
 					<!-- Mockup Images -->
 					<div class="mockups">
 						<h3>UI Mockups</h3>
 						<p>Below are the mockups of the key screens in the application, demonstrating how the user interface supports the workflows of internal account creation and validation.</p>
 						
-						<!-- Carrousel principal -->
-						<div class="new-carousel-container">
-							<!-- Carrousel principal -->
-							<div class="new-carousel">
-								<!-- Web App screen 1 -->
-								<div class="new-carousel-item">
-									<img src="/assets/images/10- UX Design.png" alt="Main Menu" class="new-carousel-image">
-									<h4>Main Menu</h4>
-								</div>
-								<!-- Web App screen 2 -->
-								<div class="new-carousel-item">
-									<img src="/assets/images/11- UX Design copie.png" alt="My Team" class="new-carousel-image">
-									<h4>My Team</h4>
-								</div>
-								<!-- Web App screen 3 -->
-								<div class="new-carousel-item">
-									<img src="/assets/images/12- UX Design copie 2.png" alt="Internal creation recap" class="new-carousel-image">
-									<h4>Internal creation recap</h4>
-								</div>
-								<!-- Web App screen 4 -->
-								<div class="new-carousel-item">
-									<img src="/assets/images/13- UX Design copie 3.png" alt="Deletion screen" class="new-carousel-image">
-									<h4>Deletion screen</h4>
-								</div>
-								<!-- Web App screen 5 -->
-								<div class="new-carousel-item">
-									<img src="/assets/images/14- UX Design copie 4.png" alt="Generic or shared creation" class="new-carousel-image">
-									<h4>Generic or shared creation</h4>
-								</div>
-								<!-- Web App screen 6 -->
-								<div class="new-carousel-item">
-									<img src="/assets/images/15- UX Design copie 5.png" alt="Warning validation" class="new-carousel-image">
-									<h4>Warning validation</h4>
-								</div>
-								<!-- Web App screen 7 -->
-								<div class="new-carousel-item">
-									<img src="/assets/images/16- UX Design copie 6.png" alt="Validation feedback" class="new-carousel-image">
-									<h4>Validation feedback</h4>
-								</div>
-							</div>
-
-							<!-- Navigation Arrows -->
-							<button class="new-prev" onclick="moveSlide(-1)">&#10094;</button>
-							<button class="new-next" onclick="moveSlide(1)">&#10095;</button>
-
-							<!-- Vignettes des personas -->
-							<div class="new-preview-container">
-								<div class="new-preview-item" onclick="moveToSlide(0)">
-									<img src="/assets/images/10- UX Design.png" alt="Main Menu" class="new-preview-image">
-								</div>
-								<div class="new-preview-item" onclick="moveToSlide(1)">
-									<img src="/assets/images/11- UX Design copie.png" alt="My Team" class="new-preview-image">
-								</div>
-								<div class="new-preview-item" onclick="moveToSlide(2)">
-									<img src="/assets/images/12- UX Design copie 2.png" alt="Internal creation recap" class="new-preview-image">
-								</div>
-								<div class="new-preview-item" onclick="moveToSlide(3)">
-									<img src="/assets/images/13- UX Design copie 3.png" alt="Deletion screen" class="new-preview-image">
-								</div>
-								<div class="new-preview-item" onclick="moveToSlide(4)">
-									<img src="/assets/images/14- UX Design copie 4.png" alt="Generic or shared creation" class="new-preview-image">
-								</div>
-								<div class="new-preview-item" onclick="moveToSlide(5)">
-									<img src="/assets/images/15- UX Design copie 5.png" alt="Warning validation" class="new-preview-image">
-								</div>
-								<div class="new-preview-item" onclick="moveToSlide(6)">
-									<img src="/assets/images/16- UX Design copie 6.png" alt="Validation feedback" class="new-preview-image">
-								</div>
-							</div>
+						<div class="mockup">
+							<img src="assets/images/mockup1.jpg" alt="Account Creation Screen">
+							<p>Account Creation Screen</p>
+						</div>
+						
+						<div class="mockup">
+							<img src="assets/images/mockup2.jpg" alt="Validation Screen">
+							<p>Validation Screen</p>
 						</div>
 					</div>
 
