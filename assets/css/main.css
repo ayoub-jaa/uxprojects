@@ -237,7 +237,7 @@ header .logos {
 /* Style du conteneur du carrousel */
 .carousel-container {
     position: relative;
-    width: 80%;
+    /*width: 80%;*/
     margin: 0 auto;
     overflow: hidden;
 }
