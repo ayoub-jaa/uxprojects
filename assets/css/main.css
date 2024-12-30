@@ -516,6 +516,33 @@ p {
     flex: 0 0 100%;  /* Chaque élément prend 100% de la largeur */
 }
 
+.carousel, .new-carousel {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slick-prev, .slick-next {
+    font-size: 18px; 
+    color: #333;
+}
+
+.slick-prev {
+    left: -40px;
+}
+
+.slick-next {
+    right: -40px;
+}
+
+.slick-dots {
+    bottom: 10px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: #333;
+}
+
 
 /* Connect Section */
 .connect-with-me {
