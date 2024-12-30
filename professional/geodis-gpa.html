@@ -281,15 +281,68 @@
 					<div class="mockups">
 						<h3>UI Mockups</h3>
 						<p>Below are the mockups of the key screens in the application, demonstrating how the user interface supports the workflows of internal account creation and validation.</p>
-						
-						<div class="mockup">
-							<img src="assets/images/mockup1.jpg" alt="Account Creation Screen">
-							<p>Account Creation Screen</p>
+						<div class="carousel-container">
+						<!-- Carrousel principal -->
+							<div class="carousel">
+								<!-- Persona 1 -->
+								  <div class="carousel-item">
+									<img src="/assets/images/10- UX Design.png" alt="Main Menu">
+									<div class="persona-details">
+										<h4>Main Menu</h4>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img src="/assets/images/11- UX Design copie.png" alt="My Team">
+									<div class="persona-details">
+										<h4>My Team</h4>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img src="/assets/images/12- UX Design copie 2.png" alt="Internal creation recap">
+									<div class="persona-details">
+										<h4>Internal creation recap</h4>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img src="/assets/images/13- UX Design copie 3.png" alt="Deletion screen">
+									<div class="persona-details">
+										<h4>Deletion screen</h4>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img src="/assets/images/14- UX Design copie 4.png" alt="Generic or shared creation">
+									<div class="persona-details">
+										<h4>Generic or shared creation</h4>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img src="/assets/images/15- UX Design copie 5.png" alt="Warning validation">
+									<div class="persona-details">
+										<h4>Warning validation</h4>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img src="/assets/images/16- UX Design copie 6.png" alt="Validation feedback">
+									<div class="persona-details">
+										<h4>Validation feedback</h4>
+									</div>
+								</div>
+							</div>
 						</div>
-						
-						<div class="mockup">
-							<img src="assets/images/mockup2.jpg" alt="Validation Screen">
-							<p>Validation Screen</p>
+						<button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+						<button class="next" onclick="moveSlide(1)">&#10095;</button>
+
+						<!-- Vignettes des personas -->
+						<div class="preview-container">
+							<div class="preview-item" onclick="moveToSlide(0)">
+								<img src="/assets/images/persona-admin-icon.jpg" alt="Administrator Persona" class="preview-image">
+							</div>
+							<div class="preview-item" onclick="moveToSlide(1)">
+								<img src="/assets/images/persona-hr-icon.jpg" alt="HR Manager Persona" class="preview-image">
+							</div>
+							<div class="preview-item" onclick="moveToSlide(2)">
+								<img src="/assets/images/persona-manager-icon.jpg" alt="Manager Persona" class="preview-image">
+							</div>
 						</div>
 					</div>
 
