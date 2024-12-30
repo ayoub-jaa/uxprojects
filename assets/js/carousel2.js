@@ -15,12 +15,20 @@ function moveSlide2(step) {
         slideIndex2 = slides.length - 1;
     }
 
+    console.log(`Moving to slide: ${slideIndex2}`);
+
     // Mettre à jour la position du carrousel
-    document.querySelector('.carousel2').style.transform = `translateX(-${slideIndex2 * 100}%)`;
+    const carousel = document.querySelector('.carousel2');
+    carousel.style.transform = `translateX(-${slideIndex2 * 100}%)`;
+    carousel.style.transition = 'transform 0.5s ease-in-out';  // Ajout de la transition si ce n'était pas présent
 }
 
 // Fonction pour naviguer directement à un persona spécifique (via la vignette)
 function moveToSlide2(index) {
     slideIndex2 = index;
-    document.querySelector('.carousel2').style.transform = `translateX(-${slideIndex2 * 100}%)`;
+    console.log(`Jumping to slide: ${slideIndex2}`);
+    
+    const carousel = document.querySelector('.carousel2');
+    carousel.style.transform = `translateX(-${slideIndex2 * 100}%)`;
+    carousel.style.transition = 'transform 0.5s ease-in-out';  // Ajout de la transition si ce n'était pas présent
 }

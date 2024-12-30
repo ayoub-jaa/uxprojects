@@ -258,23 +258,22 @@ header .logos {
 /* Style du conteneur du carrousel2 */
 .carousel2-container {
     position: relative;
-    width: 80%;
+    /*width: 80%;*/
     margin: 0 auto;
     overflow: hidden;
 }
 
-/* Style du carrousel */
 .carousel2 {
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    overflow: hidden;
+    width: 100%;
 }
 
-/* Style des éléments du carrousel */
 .carousel2-item {
     min-width: 100%;
-    box-sizing: border-box;
-    text-align: center;
+    transition: transform 0.5s ease-in-out;  /* Important pour l'animation */
 }
+
 
 /* Style de l'image du persona */
 .persona-image {
