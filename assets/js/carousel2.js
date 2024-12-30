@@ -15,6 +15,8 @@ function moveSlide2(step2) {
         slideIndex2 = slides2.length - 1;
     }
 
+    console.log(`Current slide index: ${slideIndex2}`);
+
     // Mettre à jour la position du carrousel
     document.querySelector('.carousel2').style.transform = `translateX(-${slideIndex2 * 100}%)`;
 }
@@ -22,5 +24,7 @@ function moveSlide2(step2) {
 // Fonction pour naviguer directement à un persona spécifique (via la vignette)
 function moveToSlide2(index2) {
     slideIndex2 = index2;
+    console.log(`Jumping to slide: ${slideIndex2}`);
+    
     document.querySelector('.carousel2').style.transform = `translateX(-${slideIndex2 * 100}%)`;
 }

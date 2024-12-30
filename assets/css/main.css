@@ -258,7 +258,7 @@ header .logos {
 /* Style du conteneur du carrousel2 */
 .carousel2-container {
     position: relative;
-    /*width: 80%;*/
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -267,11 +267,14 @@ header .logos {
     display: flex;
     overflow: hidden;
     width: 100%;
+    transition: transform 0.5s ease-in-out;  /* Animation fluide */
 }
 
 .carousel2-item {
     min-width: 100%;
-    transition: transform 0.5s ease-in-out;  /* Important pour l'animation */
+    flex-shrink: 0;  /* Empêche l'élément de rétrécir */
+    /* Important pour l'animation */
+	/*transition: transform 0.5s ease-in-out;*/
 }
 
 
@@ -408,6 +411,18 @@ header .logos {
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 10;
 }
 
 #user-journey-mapping {
