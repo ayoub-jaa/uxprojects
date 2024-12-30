@@ -507,6 +507,15 @@ p {
     right: 10px;
 }
 
+.new-carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.new-carousel-item {
+    flex: 0 0 100%;  /* Chaque élément prend 100% de la largeur */
+}
+
 
 /* Connect Section */
 .connect-with-me {

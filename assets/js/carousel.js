@@ -48,6 +48,7 @@ function moveSlideSecondary(step) {
 }
 
 // Fonction pour naviguer directement à un élément du deuxième carrousel via la vignette
+// La version précédente de cette fonction a été corrigée pour éviter un conflit.
 function moveToSlideSecondary(index) {
     slideIndexSecondary = index;
     document.querySelector('.new-carousel').style.transform = `translateX(-${slideIndexSecondary * 100}%)`;
