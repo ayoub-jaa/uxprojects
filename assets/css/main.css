@@ -562,6 +562,13 @@ header .logos {
     border-radius: 50%;
 }
 
+.preview-image-tool {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 /* Style des vignettes (petites images de preview 2) */
 .preview-container2 {
     display: flex;
@@ -1056,8 +1063,7 @@ footer {
 	  border-radius: 50%;
 	  cursor: pointer;
 	  transition: transform 0.3s ease;
-	}
-	
+	}	
 }
 
 @media (max-width: 980px) {
