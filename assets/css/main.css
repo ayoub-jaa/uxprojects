@@ -956,7 +956,7 @@ footer {
     height: auto;
     /*display: block;*/
   }
-  .about-content-block p{
+  .about-content-block p, ul, li{
 	font-size: 15px;
   }
 }
