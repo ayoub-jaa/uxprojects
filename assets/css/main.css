@@ -1019,6 +1019,11 @@ footer {
 	  transition: transform 0.3s ease;
 	}
 	
+	
+  
+}
+
+@media (max-width: 930px) {
 	.preview-item2 img{
 	  width: 100px;
 	  /*height: 100px;*/
@@ -1027,5 +1032,4 @@ footer {
 	  cursor: pointer;
 	  transition: transform 0.3s ease;
 	}
-  
 }
