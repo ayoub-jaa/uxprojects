@@ -13,7 +13,26 @@
 
     <!-- Header Section -->
     <header>
-        <div class="container">
+        <div class="sticky-container">
+			<div class="logo">
+				<a href="/index.html">
+					<img src="/assets/images/ux-design.png" alt="Site Logo">
+				</a>
+			</div>
+			<div class="menu-burger">
+				<button id="burger-button">&#9776;</button>
+			</div>
+		</div>
+		<nav id="menu-links">
+			<ul>
+				<li><a href="/index.html">Home</a></li>
+				<li><a href="/professional/professional.html">Professional</a></li>
+				<li><a href="/volunteer/volunteer.html">Volunteer</a></li>
+				<li><a href="/student/student.html">Student</a></li>
+			</ul>
+		</nav>
+		
+		<div class="container">
             <h1>Hi, I'm Ayoub J.</h1>
             <p style="color: white;">UX & Product Designer, Team Leader Data Analyst</p>
 			<a href="#about">
@@ -161,6 +180,7 @@
     </footer>
 
 	<script src="/assets/js/scroll-to-top.js"></script>
+	<script src="/assets/js/sticky-header.js"></script>
 
 </body>
 </html>

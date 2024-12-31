@@ -39,6 +39,55 @@ body {
     font-size: 40px;
 }
 
+/* Sticky Header */
+#sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #5c3a47;
+    display: none; /* Cacher par défaut */
+    z-index: 1000;
+    transition: top 0.3s ease-in-out;
+}
+
+.sticky-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.sticky-container .logo img {
+    height: 40px;
+    width: auto;
+}
+
+.menu-burger {
+    display: none;
+}
+
+#menu-links {
+    display: flex;
+    justify-content: center;
+}
+
+#menu-links ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-links ul li {
+    margin: 0 15px;
+}
+
+#menu-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 /* Header Section */
 /* Styles pour le Header */
 header {
@@ -748,6 +797,30 @@ footer {
 
 /* Partie mobile*/
 @media (max-width: 480px) {
+	.menu-burger {
+        display: block;
+    }
+
+    #menu-links {
+        display: none; /* Cacher le menu par défaut sur mobile */
+        flex-direction: column;
+        background-color: #5c3a47;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        z-index: 999;
+    }
+
+    #menu-links ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu-links ul li {
+        margin: 10px 0;
+    }
+	
 	.about-content2 {
 		display: flex;
 		padding: 0;
