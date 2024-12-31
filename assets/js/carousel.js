@@ -22,5 +22,15 @@ function moveSlide(step) {
 // Fonction pour naviguer directement à un persona spécifique (via la vignette)
 function moveToSlide(index) {
     slideIndex = index;
+
+    // Mettre à jour la position du carrousel
     document.querySelector('.carousel').style.transform = `translateX(-${slideIndex * 100}%)`;
+
+    // Mettre à jour les états des points
+    const dots = document.querySelectorAll('.preview-container .dot');
+    dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === slideIndex);
+    });
 }
+
+

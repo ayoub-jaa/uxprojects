@@ -22,9 +22,16 @@ function moveSlide2(step2) {
 }
 
 // Fonction pour naviguer directement à un persona spécifique (via la vignette)
-function moveToSlide2(index2) {
-    slideIndex2 = index2;
-    console.log(`Jumping to slide: ${slideIndex2}`);
-    
+function moveToSlide2(index) {
+    slideIndex2 = index;
+
+    // Mettre à jour la position du carrousel
     document.querySelector('.carousel2').style.transform = `translateX(-${slideIndex2 * 100}%)`;
+
+    // Mettre à jour les états des points
+    const dots2 = document.querySelectorAll('.preview-container2 .dot');
+    dots2.forEach((dot, i) => {
+        dot.classList.toggle('active', i === slideIndex2);
+    });
 }
+
