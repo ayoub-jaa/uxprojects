@@ -57,6 +57,7 @@ body {
 
 #sticky-header.visible {
     display: flex;
+	position: fixed;
 }
 
 #sticky-header.hidden {
