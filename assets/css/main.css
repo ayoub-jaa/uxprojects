@@ -504,6 +504,23 @@ header .logos {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+/* Style des points */
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot:hover,
+.dot.active {
+    background-color: #0078d7;
+}
+
 /* Style des vignettes (petites images de preview) */
 .preview-container {
     display: flex;
