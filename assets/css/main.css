@@ -512,6 +512,13 @@ header .logos {
     gap: 10px;
 }
 
+.preview-container-tool {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
 .preview-item {
     width: 150px;
     height: 150px;
@@ -522,6 +529,19 @@ header .logos {
 }
 
 .preview-item:hover {
+    transform: scale(1.1);
+}
+
+.preview-item-tool {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.preview-item-tool:hover {
     transform: scale(1.1);
 }
 
@@ -1011,6 +1031,15 @@ footer {
 	}
 	
 	.preview-item {
+	  width: 100px;
+	  height: 100px;
+	  overflow: hidden;
+	  border-radius: 50%;
+	  cursor: pointer;
+	  transition: transform 0.3s ease;
+	} 
+	
+	.preview-item-tool {
 	  width: 100px;
 	  height: 100px;
 	  overflow: hidden;
