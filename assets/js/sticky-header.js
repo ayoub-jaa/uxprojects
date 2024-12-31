@@ -7,9 +7,11 @@ let lastScrollY = window.scrollY;
 // Gérer l'affichage du sticky header
 window.addEventListener('scroll', () => {
     if (window.scrollY < lastScrollY && window.scrollY > 100) {
-        stickyHeader.classList.replace('visible');
+        stickyHeader.classList.remove('hidden');
+		stickyHeader.classList.add('visible');
     } else {
-        stickyHeader.classList.replace('hidden');
+        stickyHeader.classList.remove('visible');
+		stickyHeader.classList.add('hidden');
     }
     lastScrollY = window.scrollY;
 });
