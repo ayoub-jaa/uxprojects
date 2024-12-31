@@ -995,6 +995,28 @@ footer {
 	  margin: 0px;
 	  line-height: 1.8;
 	  padding-left: 0px;
+	  font-size: 20px;
+	}
+	
+	.project-detail-o365 p {
+	  font-size: 20px;
+	  line-height: 1.8;
+	}
+	
+	.persona-image {
+	  width: 100%;
+	  height: auto;
+	  border-radius: 8px;
+	  margin-bottom: 20px;
+	}
+	
+	.preview-item {
+	  width: 100px;
+	  height: 100px;
+	  overflow: hidden;
+	  border-radius: 50%;
+	  cursor: pointer;
+	  transition: transform 0.3s ease;
 	}
   
 }
