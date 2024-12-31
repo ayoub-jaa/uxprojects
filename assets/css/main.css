@@ -1019,7 +1019,7 @@ footer {
 	  transition: transform 0.3s ease;
 	}
 	
-	.preview-item2 {
+	.preview-item2 img{
 	  width: 100px;
 	  /*height: 100px;*/
 	  overflow: hidden;
