@@ -914,6 +914,17 @@ footer {
 		margin-top: 50px;
 	}
 	
+	/* About Section */
+	.about-content4 {
+		display: block;
+		align-items: center;
+		margin-top: 50px;
+	}
+	
+	.about-content4 h2 {
+		display: none;
+	}
+	
 	header h1 {
 		margin: 0;
 		z-index: 2;
