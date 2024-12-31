@@ -18,7 +18,31 @@
             <p style="font-size:30px; color: white;">Here are the details of the project(s) I participated in at GEODIS</p>
         </div>
     </header>
+	
+	<!-- Sticky Header Section -->
+	<header id="sticky-header" class="hidden">
+		<div class="sticky-container">
+			<div class="logo">
+				<a href="/index.html">
+					<img src="/assets/images/ux-design.png" alt="Site Logo">
+				</a>
+			</div>
+			<div class="menu-burger">
+				<button id="burger-button">&#9776;</button>
+			</div>
+		</div>
+	</header>
 
+	<!-- Navigation Overlay -->
+	<nav id="menu-overlay" class="hidden">
+		<ul>
+			<li><a href="/index.html">Home</a></li>
+			<li><a href="/professional/professional.html">Professional</a></li>
+			<li><a href="/volunteer/volunteer.html">Volunteer</a></li>
+			<li><a href="/student/student.html">Student</a></li>
+		</ul>
+	</nav>
+	
     <!-- Barre de navigation fixe -->
     <nav class="fixed-nav">
         <div class="container">
@@ -474,6 +498,7 @@
 
 	<script src="/assets/js/carousel.js"></script>
 	<script src="/assets/js/carousel2.js"></script>
+	<script src="/assets/js/sticky-header.js"></script>
     <script src="/assets/js/scroll-to-top.js"></script>
 </body>
 </html>
