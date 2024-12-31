@@ -506,14 +506,7 @@ header .logos {
 
 /* Style des points */
 .dot {
-    width: 12px;
-    height: 12px;
-    background-color: #ccc;
-    border-radius: 50%;
-    margin: 5px;
-    display: inline-block;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    display: none;
 }
 
 .dot:hover,
@@ -1065,12 +1058,29 @@ footer {
 	  transition: transform 0.3s ease;
 	} 
 	
-	.preview-image,
-    .preview-image2 {
+}
+
+@media (max-width: 980px) {
+
+.preview-image,
+    .preview-image2, preview-item, preview-item2 {
         display: none;
     }
 
-    .dot {
-        display: inline-block;
-    }
+    /* Style des points */
+	.dot {
+		width: 12px;
+		height: 12px;
+		background-color: #ccc;
+		border-radius: 50%;
+		margin: 5px;
+		display: inline-block;
+		cursor: pointer;
+		transition: background-color 0.3s ease;
+	}
+
+	.dot:hover,
+	.dot.active {
+		background-color: #0078d7;
+	}
 }
