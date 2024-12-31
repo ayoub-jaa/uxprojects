@@ -967,6 +967,12 @@ footer {
     height: auto;
     /*display: block;*/
   }
+  
+  .project-description p {
+	  flex: 1;
+	  margin: 0;
+	  font-size: 20px;
+	}
   .about-content-block p, ul, li{
 	font-size: 20px;
   }
