@@ -791,9 +791,13 @@ footer {
 	}
 	
 	.mobile-link {
-    display: block;
-    text-decoration: none;
-  }
+		display: block;
+		text-decoration: none;
+	  }
+	  
+	.desktop-link {
+	  display: none;
+	}
 
   .project-item .overlay {
     display: none; /* Cacher l'overlay sur mobile */
