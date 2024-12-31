@@ -253,6 +253,12 @@ header .logos {
     margin-top: 50px;
 }
 
+.about-content4 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
 .about-content-block
 {
     display: block;
