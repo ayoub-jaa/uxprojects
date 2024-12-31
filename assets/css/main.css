@@ -915,6 +915,39 @@ footer {
     color: white;
 }
 
+@media (max-width: 980px) {
+
+	.preview-image, .preview-image2, .preview-item, .preview-item2 {
+			display: none;
+	}
+
+    /* Style des points */
+	.dot {
+		width: 12px;
+		height: 12px;
+		background-color: #ccc;
+		border-radius: 50%;
+		margin: 5px;
+		display: inline-block;
+		cursor: pointer;
+		transition: background-color 0.3s ease;
+	}
+
+	.dot:hover,
+	.dot.active {
+		background-color: #0078d7;
+	}
+	
+	.preview-item-tool {
+	  width: 100px;
+	  height: 100px;
+	  overflow: hidden;
+	  border-radius: 50%;
+	  cursor: pointer;
+	  transition: transform 0.3s ease;
+	}
+}
+
 /* Partie mobile*/
 @media (max-width: 600px) {
 	.menu-burger {
@@ -1064,37 +1097,4 @@ footer {
 	  cursor: pointer;
 	  transition: transform 0.3s ease;
 	}	
-}
-
-@media (max-width: 980px) {
-
-	.preview-image, .preview-image2, .preview-item, .preview-item2 {
-			display: none;
-	}
-
-    /* Style des points */
-	.dot {
-		width: 12px;
-		height: 12px;
-		background-color: #ccc;
-		border-radius: 50%;
-		margin: 5px;
-		display: inline-block;
-		cursor: pointer;
-		transition: background-color 0.3s ease;
-	}
-
-	.dot:hover,
-	.dot.active {
-		background-color: #0078d7;
-	}
-	
-	.preview-item-tool {
-	  width: 100px;
-	  height: 100px;
-	  overflow: hidden;
-	  border-radius: 50%;
-	  cursor: pointer;
-	  transition: transform 0.3s ease;
-	}
 }
