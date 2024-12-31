@@ -45,7 +45,7 @@ body {
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: white;
+    background-color: #e187aa;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     display: flex;
@@ -58,6 +58,18 @@ body {
 #sticky-header.visible {
     display: flex;
     position: fixed;
+}
+
+.sticky-container .logo img {
+    height: 40px;
+    width: auto;
+}
+
+.sticky-container {
+    display: flex;
+    justify-content: space-between; /* Logo à gauche, bouton burger à droite */
+    align-items: center;
+    width: 98%; /* Prendre toute la largeur */
 }
 
 #sticky-header.hidden {
@@ -101,11 +113,11 @@ body {
 
 /* Menu Burger */
 #burger-button {
-    font-size: 30px;
+    font-size: 40px;
     background: none;
     border: none;
     cursor: pointer;
-    color: #5c3a47; /* Change color for visibility */
+    color: #ffffff; /* Change color for visibility */
 }
 
 
