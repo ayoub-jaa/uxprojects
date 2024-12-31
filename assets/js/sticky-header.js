@@ -8,10 +8,10 @@ let lastScrollY = window.scrollY;
 window.addEventListener('scroll', () => {
     if (window.scrollY < lastScrollY && window.scrollY > 100) {
         stickyHeader.classList.remove('hidden');
-		stickyHeader.classList.add('visible');
+        stickyHeader.classList.add('visible');
     } else {
         stickyHeader.classList.remove('visible');
-		stickyHeader.classList.add('hidden');
+        stickyHeader.classList.add('hidden');
     }
     lastScrollY = window.scrollY;
 });
@@ -19,6 +19,5 @@ window.addEventListener('scroll', () => {
 // Gérer le menu burger
 burgerButton.addEventListener('click', () => {
     const isActive = menuOverlay.classList.toggle('visible');
-    burgerButton.innerHTML = isActive ? '✕' : '&#9776;';
+    burgerButton.innerHTML = isActive ? '✕' : '&#9776;';  // Change the icon to 'X' when the menu is active
 });
-

@@ -57,7 +57,7 @@ body {
 
 #sticky-header.visible {
     display: flex;
-	position: fixed;
+    position: fixed;
 }
 
 #sticky-header.hidden {
@@ -65,68 +65,49 @@ body {
 }
 
 /* Styles du menu burger */
-#menu-links {
+#menu-overlay {
     display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: 0;
     right: 0;
-    background-color: #5c3a47;
-    padding: 10px 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
     z-index: 1001;
+    justify-content: center;
+    align-items: center;
 }
 
-#menu-links.active {
+#menu-overlay.visible {
     display: flex;
+}
+
+#menu-overlay ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#menu-overlay ul li {
+    margin: 15px 0;
+}
+
+#menu-overlay ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 /* Menu Burger */
 #burger-button {
-    font-size: 24px;
+    font-size: 30px;
     background: none;
     border: none;
     cursor: pointer;
+    color: #5c3a47; /* Change color for visibility */
 }
 
-.sticky-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-.sticky-container .logo img {
-    height: 40px;
-    width: auto;
-}
-
-.menu-burger {
-    display: none;
-}
-
-#menu-links {
-    display: flex;
-    justify-content: center;
-}
-
-#menu-links ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-#menu-links ul li {
-    margin: 0 15px;
-}
-
-#menu-links ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
 
 /* Header Section */
 /* Styles pour le Header */
@@ -878,18 +859,11 @@ footer {
 /* Partie mobile*/
 @media (max-width: 480px) {
 	.menu-burger {
-        display: block;
+        display: block;  /* Afficher le menu burger sur mobile */
     }
-
+    
     #menu-links {
-        display: none; /* Cacher le menu par défaut sur mobile */
-        flex-direction: column;
-        background-color: #5c3a47;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 100%;
-        z-index: 999;
+        display: none;  /* Cacher les liens de navigation en mobile */
     }
 
     #menu-links ul {
