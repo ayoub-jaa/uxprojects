@@ -4,12 +4,14 @@ const stickyHeader = document.getElementById('sticky-header');
 
 // Affichage conditionnel de la barre sticky
 window.addEventListener('scroll', () => {
-    if (window.scrollY < lastScrollY) {
-        // Si on scroll vers le haut
-        stickyHeader.style.display = 'block';
-    } else {
+    if (window.scrollY > 50 && window.scrollY < lastScrollY) {
+        // Si on scroll vers le haut et qu'on dépasse une hauteur (50px par ex.)
+        stickyHeader.classList.add('visible');
+        stickyHeader.classList.remove('hidden');
+    } else if (window.scrollY > 50) {
         // Si on scroll vers le bas
-        stickyHeader.style.display = 'none';
+        stickyHeader.classList.add('hidden');
+        stickyHeader.classList.remove('visible');
     }
     lastScrollY = window.scrollY;
 });
@@ -19,6 +21,5 @@ const burgerButton = document.getElementById('burger-button');
 const menuLinks = document.getElementById('menu-links');
 
 burgerButton.addEventListener('click', () => {
-    const isVisible = menuLinks.style.display === 'flex';
-    menuLinks.style.display = isVisible ? 'none' : 'flex';
+    menuLinks.classList.toggle('active');
 });

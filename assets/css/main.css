@@ -40,14 +40,53 @@ body {
 }
 
 /* Sticky Header */
+/* Styles de la barre sticky */
 #sticky-header {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     background-color: #5c3a47;
-    display: none; /* Cacher par défaut */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
     z-index: 1000;
-    transition: top 0.3s ease-in-out;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+#sticky-header.visible {
+    transform: translateY(0);
+}
+
+#sticky-header.hidden {
+    transform: translateY(-100%);
+}
+
+/* Styles du menu burger */
+#menu-links {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #5c3a47;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+}
+
+#menu-links.active {
+    display: flex;
+}
+
+#burger-button {
+    cursor: pointer;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
 }
 
 .sticky-container {
@@ -90,7 +129,7 @@ body {
 
 /* Header Section */
 /* Styles pour le Header */
-header {
+#main-header {
     text-align: center;
     padding: 150px 20px;
     background: url('/assets/images/header-bg.jpg') no-repeat center center/cover;
