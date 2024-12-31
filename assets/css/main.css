@@ -372,7 +372,6 @@ header .logos {
 }
 
 .project-detail-o365 ul {
-    /*max-width: 800px;*/
     margin: 0 60px 20px;
     line-height: 1.8;
     padding-left: 20px;
@@ -880,7 +879,7 @@ footer {
 }
 
 /* Partie mobile*/
-@media (max-width: 480px) {
+@media (max-width: 600px) {
 	.menu-burger {
         display: block;  /* Afficher le menu burger sur mobile */
     }
