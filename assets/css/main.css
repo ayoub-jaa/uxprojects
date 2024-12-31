@@ -928,6 +928,7 @@ footer {
 		display: block;
 		align-items: center;
 		margin-top: 50px;
+		margin-bottom: 0px;
 	}
 	
 	.about-content4 h2 {
@@ -1012,6 +1013,15 @@ footer {
 	.preview-item {
 	  width: 100px;
 	  height: 100px;
+	  overflow: hidden;
+	  border-radius: 50%;
+	  cursor: pointer;
+	  transition: transform 0.3s ease;
+	}
+	
+	.preview-item2 {
+	  width: 100px;
+	  /*height: 100px;*/
 	  overflow: hidden;
 	  border-radius: 50%;
 	  cursor: pointer;
