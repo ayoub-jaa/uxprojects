@@ -888,6 +888,14 @@ footer {
         margin: 10px 0;
     }
 	
+	.sticky-container {
+		display: flex;
+		justify-content: space-between; /* Logo à gauche, bouton burger à droite */
+		align-items: center;
+		width: 90%; /* Prendre toute la largeur */
+		z-index: 2;
+	}
+	
 	.about-content2 {
 		display: flex;
 		padding: 0;
