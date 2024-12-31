@@ -257,6 +257,7 @@ header .logos {
     display: flex;
     align-items: center;
     margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .about-content-block
@@ -800,8 +801,8 @@ p {
 /* Barre de navigation fixe */
 .fixed-nav {
     position: sticky; /* Reste en haut lors du scroll */
-    top: 0; /* Fixée en haut de la page */
-    z-index: 1000; /* Par-dessus les autres éléments */
+    top: 60px; /* Fixée en haut de la page */
+    z-index: 999; /* Par-dessus les autres éléments */
     background-color: #5c3a47;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid #ddd;
@@ -963,16 +964,20 @@ footer {
 	.desktop-link {
 	  display: none;
 	}
+	
+	#geodis {
+		padding-bottom: 0px;
+	}
 
-  .project-item .overlay {
-    display: none; /* Cacher l'overlay sur mobile */
-  }
+	.project-item .overlay {
+		display: none; /* Cacher l'overlay sur mobile */
+	}
 
   .project-item img {
-    width: 100%;
-    height: auto;
-    /*display: block;*/
-  }
+	width: 100%;
+	height: auto;
+	/*display: block;*/
+	}
   
   .project-description p {
 	  flex: 1;
