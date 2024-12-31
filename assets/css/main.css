@@ -45,18 +45,18 @@ body {
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: #5c3a47;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    z-index: 1000;
-    transform: translateY(-100%);
-    transition: transform 0.3s ease-in-out;
+    display: none; /* Caché par défaut */
 }
 
 #sticky-header.visible {
-    transform: translateY(0);
+    display: flex;
 }
 
 #sticky-header.hidden {
@@ -81,12 +81,12 @@ body {
     display: flex;
 }
 
+/* Menu Burger */
 #burger-button {
-    cursor: pointer;
     font-size: 24px;
     background: none;
     border: none;
-    color: white;
+    cursor: pointer;
 }
 
 .sticky-container {
@@ -173,6 +173,46 @@ header .logos {
     position: relative;
     z-index: 2;  /* Cela s'assure que les logos soient au-dessus du fond assombri */
 }
+
+/* Navigation Overlay */
+#menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 999;
+    display: none; /* Caché par défaut */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-overlay.visible {
+    display: flex;
+}
+
+#menu-overlay ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+#menu-overlay ul li {
+    margin: 10px 0;
+}
+
+#menu-overlay ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+}
+
+#menu-overlay ul li a:hover {
+    color: #5c3a47;
+}
+
 
 /* Navigation dans le projet */
 .project-nav ul {
