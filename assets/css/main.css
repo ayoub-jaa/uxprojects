@@ -53,11 +53,14 @@ body {
     align-items: center;
     padding: 10px 20px;
     display: none; /* Caché par défaut */
+	transform: translateY(-100%); /* Masqué par défaut */
+    transition: transform 0.3s ease; /* Transition fluide */
 }
 
 #sticky-header.visible {
     display: flex;
     position: fixed;
+	transform: translateY(0); /* Complètement visible */
 }
 
 .sticky-container .logo img {
