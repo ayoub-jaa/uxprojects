@@ -229,6 +229,10 @@ header .logos {
 	font-weight: bold;
 }
 
+.mobile-link {
+  display: none;
+}
+
 .project-detail-o365 p {
 	font-size: 25px;
     line-height: 1.8;
@@ -762,20 +766,42 @@ footer {
 		margin-top: 50px;
 	}
 	
-	header h1, header p {
-    margin: 0;
-    z-index: 2;
-    position: relative;
-	font-size: 40px;
+	header h1 {
+		margin: 0;
+		z-index: 2;
+		position: relative;
+		font-size: 40px;
+	}
+	
+	header p {
+		margin: 0;
+		z-index: 2;
+		position: relative;
+		font-size: 30px;
 	}
 	
 	.about-content p {
     margin-bottom: 20px;
     flex: 1;
-	font-size: 25px;
+	font-size: 20px;
 	}
 	
 	.container h2 {
 	  font-size: 30px;
 	}
+	
+	.mobile-link {
+    display: block;
+    text-decoration: none;
+  }
+
+  .project-item .overlay {
+    display: none; /* Cacher l'overlay sur mobile */
+  }
+
+  .project-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 }
