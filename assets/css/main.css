@@ -839,9 +839,9 @@ p {
 
 /* Barre de navigation fixe */
 .fixed-nav {
-    position: sticky; /* Reste en haut lors du scroll */
-    top: 75px; /* Fixée en haut de la page */
-    z-index: 998; /* Par-dessus les autres éléments */
+    position: sticky;
+    top: 75px;
+    z-index: 998;
     background-color: #5c3a47;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid #ddd;
@@ -865,11 +865,23 @@ p {
 }
 
 .fixed-nav ul li a {
+    display: flex;
+    flex-direction: column; /* Place icône et texte en colonne */
+    align-items: center;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
     color: #ffffff;
     transition: color 0.3s ease;
+}
+
+.fixed-nav ul li a i {
+    font-size: 24px; /* Taille de l'icône */
+    margin-bottom: 5px; /* Espacement entre l'icône et le texte */
+}
+
+.fixed-nav ul li a span {
+    font-size: 14px; /* Taille du texte en dessous de l'icône */
 }
 
 .fixed-nav ul li a:hover {
@@ -1096,5 +1108,13 @@ footer {
 	  border-radius: 50%;
 	  cursor: pointer;
 	  transition: transform 0.3s ease;
-	}	
+	}
+
+	.fixed-nav ul li a span {
+        display: none; /* Masquer le texte */
+    }
+
+    .fixed-nav ul li a i {
+        font-size: 20px; /* Ajuster la taille de l'icône pour le mobile */
+    }	
 }
