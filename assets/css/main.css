@@ -711,22 +711,22 @@ p {
   margin-bottom: 10px;
 }
 
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
+/* .social-icons { */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* gap: 20px; */
+/* } */
 
-.social-icons a {
-  font-size: 2rem;
-  color: #333;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
+/* .social-icons a { */
+  /* font-size: 2rem; */
+  /* color: #333; */
+  /* text-decoration: none; */
+  /* transition: color 0.3s ease; */
+/* } */
 
-.social-icons a:hover {
-  color: #0077b5; /* Couleur pour LinkedIn, modifie si nécessaire */
-}
+/* .social-icons a:hover { */
+  /* color: #0077b5; /* Couleur pour LinkedIn, modifie si nécessaire */ */
+/* } */
 
 .icon-linkedin {
   color: #ffffff; /* Couleur spécifique LinkedIn */
@@ -735,6 +735,14 @@ p {
 
 .icon-mail {
   color: #ffffff; /* Couleur spécifique Mail (rouge) */
+}
+
+.icon-linkedin:hover {
+  color: #0077b5;
+}
+
+.icon-mail:hover {
+  color: #e44d26;
 }
 
 /* Style pour la photo de profil */
@@ -876,7 +884,7 @@ p {
     font-size: 14px; /* Taille du texte en dessous de l'icône */
 }
 
-.fixed-nav ul li a:hover {
+.fixed-nav ul li a i:hover {
     color: #0077b5;
 }
 
@@ -945,14 +953,6 @@ footer {
 
 .container-connect a:hover {
   transition: color 0.3s ease; /* Ajoute une transition fluide */
-}
-
-.icon-linkedin:hover {
-  color: #0077b5 !important;
-}
-
-.icon-mail:hover {
-  color: #e44d26 !important;
 }
 
 .btn.project-btn {
