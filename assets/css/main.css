@@ -927,7 +927,7 @@ footer {
     color: white;
 }
 
-.container-connect h2, icon-linkedin, icon-mail{
+.container-connect h2, icon-linkedin, icon-mail, fab fa-linkedin, fas fa-envelope{
 	color: white;
 	font-size: 35px;
 }
