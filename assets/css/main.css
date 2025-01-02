@@ -974,10 +974,9 @@ footer {
         display: none; /* Masquer le texte */
     }
 
-    .fixed-nav ul li a i {
-        font-size: 20px; /* Ajuster la taille de l'icône pour le mobile */
+    .fixed-nav ul li {
 		margin: 0 10px;
-    }	
+	}		
 }
 
 /* Partie mobile*/
@@ -1134,8 +1133,7 @@ footer {
         display: none; /* Masquer le texte */
     }
 
-    .fixed-nav ul li a i {
-        font-size: 20px; /* Ajuster la taille de l'icône pour le mobile */
+	.fixed-nav ul li {
 		margin: 0 10px;
-    }	
+	}	
 }
