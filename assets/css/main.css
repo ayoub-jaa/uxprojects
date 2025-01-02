@@ -728,14 +728,6 @@ p {
   color: #0077b5; /* Couleur pour LinkedIn, modifie si nécessaire */
 }
 
-.icon-linkedin:hover {
-  color: #0077b5; /* Couleur spécifique LinkedIn */
-}
-
-.icon-mail:hover {
-  color: #e44d26; /* Couleur spécifique Mail (rouge) */
-}
-
 .icon-linkedin {
   color: #ffffff; /* Couleur spécifique LinkedIn */
   padding: 20px;
@@ -935,7 +927,6 @@ footer {
 
 .container-connect a {
     text-decoration: none; /* Supprime les soulignements */
-    margin-right: 15px; /* Espacement entre les icônes */
 }
 
 .container-cc p{
@@ -951,6 +942,19 @@ footer {
     display: inline-block; /* Assure que les icônes soient bien alignées */
     vertical-align: middle;
 }
+
+.container-connect a:hover {
+  transition: color 0.3s ease; /* Ajoute une transition fluide */
+}
+
+.icon-linkedin:hover {
+  color: #0077b5 !important;
+}
+
+.icon-mail:hover {
+  color: #e44d26 !important;
+}
+
 
 @media (max-width: 980px) {
 
