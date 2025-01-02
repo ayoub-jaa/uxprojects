@@ -20,7 +20,7 @@ window.addEventListener('scroll', () => {
         stickyHeader.classList.add('visible');
         
         if (isProjectPage && fixedNav) {
-            fixedNav.style.top = '60px'; // Ajuster en fonction de la hauteur de stickyHeader
+            fixedNav.style.top = '75px'; // Ajuster en fonction de la hauteur de stickyHeader
         }
     } else {
         stickyHeader.classList.remove('visible');
