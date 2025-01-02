@@ -969,6 +969,17 @@ footer {
     }	
 }
 
+@media (max-width: 770px) {
+	.fixed-nav ul li a span {
+        display: none; /* Masquer le texte */
+    }
+
+    .fixed-nav ul li a i {
+        font-size: 20px; /* Ajuster la taille de l'icône pour le mobile */
+		margin: 0 10px;
+    }	
+}
+
 /* Partie mobile*/
 @media (max-width: 600px) {
 	.menu-burger {
