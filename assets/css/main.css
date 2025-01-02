@@ -724,9 +724,13 @@ p {
   transition: color 0.3s ease;
 }
 
-.social-icons a:hover {
-  color: #0077b5; /* Couleur pour LinkedIn, modifie si nécessaire */
+.btn-about-btn a{
+	font-size: 20px;
 }
+
+/* .social-icons a:hover { */
+  /* color: #0077b5; /* Couleur pour LinkedIn, modifie si nécessaire */ */
+/* } */
 
 .icon-linkedin {
   color: #ffffff; /* Couleur spécifique LinkedIn */
@@ -1004,7 +1008,17 @@ footer {
 	color: white;
 	font-size: 35px;
 	}
-
+	
+	.about-content2 {
+		display: flex;
+		padding: 0;
+		justify-content: center;
+	}
+	
+	.btn-about-btn a{
+	font-size: 20px;
+}
+	
 	.container-cc p{
 		color: white;
 		font-size: 25px;
@@ -1020,6 +1034,16 @@ footer {
 	color: white;
 	font-size: 25px;
 	}
+	
+	.about-content2 {
+		display: flex;
+		padding: 0;
+		justify-content: center;
+	}
+	
+	.btn-about-btn a{
+	font-size: 20px;
+}
 
 	.container-cc p{
 		color: white;
@@ -1103,6 +1127,10 @@ footer {
     flex: 1;
 	font-size: 20px;
 	}
+	
+	.btn-about-btn a{
+	font-size: 20px;
+}
 	
 	.container h2 {
 	  font-size: 30px;
