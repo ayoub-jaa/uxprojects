@@ -299,6 +299,7 @@ header .logos {
     border-radius: 5px;
     font-weight: bold;
     transition: background 0.3s ease;
+	font-size: 20px;
 }
 
 .about-btn:hover {
@@ -724,10 +725,6 @@ p {
   transition: color 0.3s ease;
 }
 
-.btn-about-btn a{
-	font-size: 20px;
-}
-
 /* .social-icons a:hover { */
   /* color: #0077b5; /* Couleur pour LinkedIn, modifie si nécessaire */ */
 /* } */
@@ -1005,8 +1002,8 @@ footer {
     }
 	
 	.container-connect h2, a, i{
-	color: white;
-	font-size: 35px;
+		color: white;
+		font-size: 35px;
 	}
 	
 	.about-content2 {
@@ -1015,7 +1012,17 @@ footer {
 		justify-content: center;
 	}
 	
-	.btn-about-btn a{
+/* Bouton LinkedIn */
+.about-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #0077b5; /* Couleur LinkedIn */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
 	font-size: 20px;
 }
 	
@@ -1041,7 +1048,17 @@ footer {
 		justify-content: center;
 	}
 	
-	.btn-about-btn a{
+/* Bouton LinkedIn */
+.about-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #0077b5; /* Couleur LinkedIn */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
 	font-size: 20px;
 }
 
@@ -1128,7 +1145,17 @@ footer {
 	font-size: 20px;
 	}
 	
-	.btn-about-btn a{
+/* Bouton LinkedIn */
+.about-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #0077b5; /* Couleur LinkedIn */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
 	font-size: 20px;
 }
 	
