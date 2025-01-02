@@ -930,11 +930,26 @@ footer {
 .container-connect h2, a, i{
 	color: white;
 	font-size: 35px;
+	text-align: center; /* Centre le contenu */
+}
+
+.container-connect a {
+    text-decoration: none; /* Supprime les soulignements */
+    margin-right: 15px; /* Espacement entre les icônes */
 }
 
 .container-cc p{
 	color: white;
 	font-size: 25px;
+}
+
+.container-connect a:last-child {
+    margin-right: 0; /* Supprime le dernier espace */
+}
+
+.container-connect i {
+    display: inline-block; /* Assure que les icônes soient bien alignées */
+    vertical-align: middle;
 }
 
 @media (max-width: 980px) {
