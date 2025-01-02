@@ -966,13 +966,26 @@ footer {
     .fixed-nav ul li a i {
         font-size: 20px; /* Ajuster la taille de l'icône pour le mobile */
 		margin: 0 10px;
-    }	
+    }
+	
+	.footer container p{
+		font-size: 15px;
+	}
 }
 
 @media (max-width: 770px) {
 	.fixed-nav ul li a span {
         display: none; /* Masquer le texte */
     }
+	
+	.footer container p{
+		font-size: 15px;
+	}
+	
+	.container connect h2{
+		font-size: 25px;
+	}
+}
 }
 
 /* Partie mobile*/
@@ -1132,4 +1145,16 @@ footer {
 	.fixed-nav ul li {
 		margin: 0 0px;
 	}	
+	
+	.footer container p{
+		font-size: 15px;
+	}
+	
+	.container connect h2{
+		font-size: 25px;
+	}
+	
+	.icon-mail, .icon-linkedin{
+		font-size: 25px;
+	}
 }
