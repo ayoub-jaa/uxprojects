@@ -928,7 +928,19 @@ footer {
     color: white;
 }
 
-.container-connect h2, a, i{
+.container-connect h2{
+	color: white;
+	font-size: 35px;
+	text-align: center; /* Centre le contenu */
+}
+
+.container-connect a{
+	color: white;
+	font-size: 35px;
+	text-align: center; /* Centre le contenu */
+}
+
+.container-connect i{
 	color: white;
 	font-size: 35px;
 	text-align: center; /* Centre le contenu */
@@ -1001,10 +1013,23 @@ footer {
 		margin: 0 10px;
     }
 	
-	.container-connect h2, a, i{
-		color: white;
-		font-size: 35px;
-	}
+	.container-connect h2{
+	color: white;
+	font-size: 35px;
+	text-align: center; /* Centre le contenu */
+}
+
+.container-connect a{
+	color: white;
+	font-size: 35px;
+	text-align: center; /* Centre le contenu */
+}
+
+.container-connect i{
+	color: white;
+	font-size: 35px;
+	text-align: center; /* Centre le contenu */
+}
 	
 	.about-content2 {
 		display: flex;
@@ -1037,10 +1062,23 @@ footer {
         display: none; /* Masquer le texte */
     }
 	
-	.container-connect h2, a, i{
+	.container-connect h2{
 	color: white;
 	font-size: 25px;
-	}
+	text-align: center; /* Centre le contenu */
+}
+
+.container-connect a{
+	color: white;
+	font-size: 25px;
+	text-align: center; /* Centre le contenu */
+}
+
+.container-connect i{
+	color: white;
+	font-size: 25px;
+	text-align: center; /* Centre le contenu */
+}
 	
 	.about-content2 {
 		display: flex;
@@ -1240,10 +1278,23 @@ footer {
 		margin: 0 0px;
 	}
 
-	.container-connect h2, a, i{
-		color: white;
-		font-size: 25px;
-	}
+	.container-connect h2{
+	color: white;
+	font-size: 25px;
+	text-align: center; /* Centre le contenu */
+}
+
+.container-connect a{
+	color: white;
+	font-size: 25px;
+	text-align: center; /* Centre le contenu */
+}
+
+.container-connect i{
+	color: white;
+	font-size: 25px;
+	text-align: center; /* Centre le contenu */
+}
 
 	.container-cc p{
 		color: white;
