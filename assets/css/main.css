@@ -973,10 +973,6 @@ footer {
 	.fixed-nav ul li a span {
         display: none; /* Masquer le texte */
     }
-
-    .fixed-nav ul li {
-		margin: 0 10px;
-	}		
 }
 
 /* Partie mobile*/
