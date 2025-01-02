@@ -1111,6 +1111,10 @@ footer {
 		color: white;
 		font-size: 15px;
 	}
+
+    .adapt{
+        width: 100%;
+    }
 }
 
 /* Partie mobile*/
@@ -1307,4 +1311,7 @@ footer {
 		color: white;
 		font-size: 15px;
 	}	
+    .adapt{
+        width: 100%;
+    }
 }
