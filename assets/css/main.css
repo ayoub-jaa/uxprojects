@@ -978,7 +978,7 @@ footer {
 		margin: 0 10px;
     }
 	
-	.container-connect h2, icon-linkedin, icon-mail{
+	.container-connect h2, icon-linkedin, icon-mail, fab fa-linkedin, fas fa-envelope{
 	color: white;
 	font-size: 35px;
 	}
@@ -994,7 +994,7 @@ footer {
         display: none; /* Masquer le texte */
     }
 	
-	.container-connect h2, icon-linkedin, icon-mail{
+	.container-connect h2, icon-linkedin, icon-mail, fab fa-linkedin, fas fa-envelope{
 	color: white;
 	font-size: 25px;
 	}
@@ -1163,7 +1163,7 @@ footer {
 		margin: 0 0px;
 	}
 
-	.container-connect h2, icon-linkedin, icon-mail{
+	.container-connect h2, icon-linkedin, icon-mail, fab fa-linkedin, fas fa-envelope{
 		color: white;
 		font-size: 25px;
 	}
