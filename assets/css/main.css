@@ -247,7 +247,7 @@ header .logos {
 .about-content2 {
     display: flex;
     align-items: center;
-	padding: 0;
+	padding: 20px;
 }
 
 .about-content3 {
@@ -1194,7 +1194,7 @@ footer {
     border-radius: 5px;
     font-weight: bold;
     transition: background 0.3s ease;
-	font-size: 20px;
+	font-size: 15px;
 }
 	
 	.container h2 {
