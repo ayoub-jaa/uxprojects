@@ -711,22 +711,22 @@ p {
   margin-bottom: 10px;
 }
 
-/* .social-icons { */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* gap: 20px; */
-/* } */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
 
-/* .social-icons a { */
-  /* font-size: 2rem; */
-  /* color: #333; */
-  /* text-decoration: none; */
-  /* transition: color 0.3s ease; */
-/* } */
+.social-icons a {
+  font-size: 2rem;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
 
-/* .social-icons a:hover { */
-  /* color: #0077b5; /* Couleur pour LinkedIn, modifie si nécessaire */ */
-/* } */
+.social-icons a:hover {
+  color: #0077b5; /* Couleur pour LinkedIn, modifie si nécessaire */
+}
 
 .icon-linkedin {
   color: #ffffff; /* Couleur spécifique LinkedIn */
