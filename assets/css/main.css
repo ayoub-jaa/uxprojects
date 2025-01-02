@@ -995,6 +995,13 @@ footer {
 		background-color: #0078d7;
 	}
 	
+    /* About Section */
+    .about-content3 {
+        display: block;
+        align-items: center;
+        margin-top: 50px;
+    }
+
 	.preview-item-tool {
 	  width: 100px;
 	  height: 100px;
