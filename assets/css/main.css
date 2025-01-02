@@ -289,7 +289,7 @@ header .logos {
 }
 
 /* Bouton LinkedIn */
-.about-btn {
+.btn-about-btn {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
@@ -302,7 +302,7 @@ header .logos {
 	font-size: 20px;
 }
 
-.about-btn:hover {
+.btn-about-btn:hover {
     background: #005582; /* Couleur plus foncée au survol */
 }
 
@@ -1038,7 +1038,7 @@ footer {
 	}
 	
 /* Bouton LinkedIn */
-.about-btn {
+.btn-about-btn {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
@@ -1087,7 +1087,7 @@ footer {
 	}
 	
 /* Bouton LinkedIn */
-.about-btn {
+.btn-about-btn {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
@@ -1184,7 +1184,7 @@ footer {
 	}
 	
 /* Bouton LinkedIn */
-.about-btn {
+.btn-about-btn {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
