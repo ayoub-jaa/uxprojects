@@ -738,11 +738,11 @@ p {
   color: #ffffff; /* Couleur spécifique Mail (rouge) */
 }
 
-.icon-linkedin:hover {
+.fa-brands.fa-linkedin:hover {
   color: #0077b5;
 }
 
-.icon-mail:hover {
+.fas.fa-envelope:hover {
   color: #e44d26;
 }
 
