@@ -19,26 +19,30 @@
 				</p>
 			</div>
 		</header>
+
 		<!-- Sticky Header Section -->
 		<header id="sticky-header" class="hidden">
 			<div class="sticky-container">
 				<div class="logo">
-					<a href="/index.html"><img src="/assets/images/ux-design.png" alt="Site Logo"></a>
+					<a href="/index.html">
+						<img src="/assets/images/ux-design.png" alt="Site Logo">
+					</a>
 				</div>
 				<div class="menu-burger">
 					<button id="burger-button">&#9776;</button>
 				</div>
 			</div>
 		</header>
-		<!-- Navigation Overlay -->
-		<nav id="menu-overlay" class="hidden">
-			<ul>
-				<li><a href="/index.html">Home</a></li>
-				<li><a href="/professional/professional.html">Professional</a></li>
-				<li><a href="/volunteer/volunteer.html">Volunteer</a></li>
-				<li><a href="/student/student.html">Student</a></li>
-			</ul>
-		</nav>
+
+	<!-- Navigation Overlay -->
+	<nav id="menu-overlay" class="hidden">
+		<ul>
+			<li><a href="/index.html">Home</a></li>
+			<li><a href="/professional/professional.html">Professional</a></li>
+			<li><a href="/volunteer/volunteer.html">Volunteer</a></li>
+			<li><a href="/student/student.html">Student</a></li>
+		</ul>
+	</nav>
 		<!-- Barre de navigation fixe -->
 		<nav class="fixed-nav">
 			<div class="container">
@@ -125,6 +129,7 @@
 					<img src="/assets/images/old-display-calendar.png" alt="Previous Boursoshop display" />
 				</div>
 			</section>
+
 			<h2 id="challenges">Challenges and Context</h2>
 			<p>
 				Previously, the calendar feature was displayed as a static table, which created significant frustrations. Users had to manually locate the current month's row, a cumbersome process that was especially problematic on mobile due to the lack of responsive design. Scrolling horizontally and vertically on small screens was inconvenient and impractical. These issues severely impacted usability and customer satisfaction, prompting a complete redesign of the feature.
@@ -189,11 +194,13 @@
 						</div>
 					</div>
 				</div>
+
 				<!-- Navigation Arrows -->
 				<button class="prev" onclick="moveSlide(-1)">&#10094;</button>
 				<button class="next" onclick="moveSlide(1)">&#10095;</button>
+
 				<div class="preview-container">
-				<!-- Points pour le carousel -->
+					<!-- Points pour le carousel -->
 					<div class="dot" onclick="moveToSlide(0)"></div>
 					<div class="dot" onclick="moveToSlide(1)"></div>
 					<div class="dot" onclick="moveToSlide(2)"></div>
@@ -459,18 +466,29 @@
 		</ul>
 	</div>
 </section>
-<p>
-	&nbsp;
-</p>
+
+<button id="scrollToTopBtn" class="scroll-to-top">
+	<i class="fa fa-chevron-up"></i>
+</button>
+
 <!-- Footer Section -->
 <footer>
 	<div class="container-connect">
 		<h2>Connect with Me</h2>
+		<a href="https://www.linkedin.com/in/ayoub-j/" class="icon-linkedin" aria-label="LinkedIn">
+			<i class="fa-brands fa-linkedin"></i>
+		</a> <a href="mailto:ayoub.jaa11@gmail.com" class="icon-mail" aria-label="Email">
+			<i class="fas fa-envelope"></i>
+		</a>
 	</div>
 	<div class="container-cc">
-		<p>
-			&copy; 2024 Ayoub J. | All rights reserved.
-		</p>
+		<p> &copy; 2024 Ayoub J. | All rights reserved.</p>
 	</div>
 </footer>
 
+	<script src="/assets/js/carousel.js"></script>
+	<script src="/assets/js/carousel2.js"></script>
+	<script src="/assets/js/sticky-header.js"></script>
+	<script src="/assets/js/scroll-to-top.js"></script>
+</body>
+</html>
