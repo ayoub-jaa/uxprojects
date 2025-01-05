@@ -263,6 +263,18 @@ header .logos {
 	margin-bottom: 50px;
 }
 
+.persona-video2 {
+    width: 100%; /* La vidéo occupe toute la largeur du conteneur */
+    height: auto; /* Respecte le ratio de la vidéo */
+    border-radius: 8px; /* Ajoute des coins arrondis si nécessaire */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajoute une ombre */
+}
+.carousel2-item { /*A vérifier*/
+    min-width: 300px; /* Assure une taille cohérente pour chaque item */
+    max-width: 600px; /* Limite la largeur pour éviter les débordements */
+    margin: 0 auto; /* Centre les vidéos dans le carrousel */
+}
+
 .about-content-block
 {
     display: block;
