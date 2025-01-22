@@ -8,9 +8,6 @@ But beyond the projects, I’ve also made sure to share a bit about who I am and
 
 The portfolio is also a space where you can see my versatility as a designer—how I adapt to different contexts, teams, and users. Some of my projects are complex, dealing with big corporate systems and lots of data, like the GEODIS tool. Others are more about simplicity and accessibility, like the work I’ve done for volunteer-driven associations. No matter the challenge, I always approach it with the goal of making the user’s life easier.
 
-Ultimately, this portfolio isn’t just a collection of work—it’s a reflection of my philosophy as a designer. I hope that as you explore it, you get a sense of my passion for crafting thoughtful, user-friendly designs that really make a difference.
+To finish, this portfolio isn’t just a collection of work—it’s a reflection of my philosophy as a designer. I hope that as you explore it, you get a sense of my passion for crafting thoughtful, user-friendly designs that really make a difference.
 
-
-Based on Spectral by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+- Ayoub J.
