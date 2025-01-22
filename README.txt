@@ -1,6 +1,6 @@
 Portfolio UX project - www.ayoubj.com
 
-My portfolio is a bit like a window into my journey as a UX Designer—showing not just the projects I’ve worked on, but also the way I approach design. It’s not just about showcasing a few pretty interfaces; it’s about telling the story behind each project and the problem-solving process that led to the solutions. From the Office365 account management app I created for GEODIS to my work with associations, every project reflects a unique set of challenges and learnings.
+My portfolio is a bit like a window into my journey as a UX Designer & Product Designer—showing not just the projects I’ve worked on, but also the way I approach design. It’s not just about showcasing a few pretty interfaces; it’s about telling the story behind each project and the problem-solving process that led to the solutions. From the Office365 account management app I created for GEODIS to my work with associations, every project reflects a unique set of challenges and learnings.
 
 I’ve structured the site to make it as easy to navigate as possible. Each project has its own section where you can dive into the details of the process—from understanding user needs and creating personas, to wireframing, prototyping, and gathering feedback. I wanted to make sure you not only see the end result but also understand the thought process behind it. Each project is a step in my growth, and I’m always looking to learn and improve, no matter how big or small the project is.
 
