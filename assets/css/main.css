@@ -425,6 +425,14 @@ header .logos {
     overflow: hidden;
 }
 
+/* Style du conteneur du carrousel3 */
+.carousel3-container {
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 /* Style du carrousel */
 .carousel2 {
     display: flex;
@@ -1058,6 +1066,14 @@ footer {
 		justify-content: center;
 	}
 	
+/* Style du conteneur du carrousel3 */
+.carousel3-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 /* Bouton LinkedIn */
 .btn-about-btn {
     display: inline-block;
@@ -1108,6 +1124,14 @@ footer {
 		justify-content: center;
 	}
 	
+/* Style du conteneur du carrousel3 */
+.carousel3-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 /* Bouton LinkedIn */
 .btn-about-btn {
     display: inline-block;
@@ -1177,6 +1201,14 @@ footer {
 		margin-top: 50px;
 	}
 	
+/* Style du conteneur du carrousel3 */
+.carousel3-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 	/* About Section */
 	.about-content4 {
 		display: block;
