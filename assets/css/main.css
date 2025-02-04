@@ -1032,6 +1032,13 @@ footer {
 	  transition: transform 0.3s ease;
 	}
 	
+    .carouselteacher-container {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
 	.fixed-nav ul li a span {
         display: none; /* Masquer le texte */
     }
@@ -1110,6 +1117,13 @@ footer {
 	text-align: center; /* Centre le contenu */
 }
 	
+.carouselteacher-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 	.about-content2 {
 		display: flex;
 		padding: 0;
@@ -1193,6 +1207,13 @@ footer {
 		margin-bottom: 0px;
 	}
 	
+    .carouselteacher-container {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
 	.about-content4 h2 {
 		display: none;
 	}
