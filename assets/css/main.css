@@ -1031,13 +1031,6 @@ footer {
 	  cursor: pointer;
 	  transition: transform 0.3s ease;
 	}
-	
-    .carouselteacher-container {
-        position: relative;
-        width: 100%;
-        margin: 0 auto;
-        overflow: hidden;
-    }
 
 	.fixed-nav ul li a span {
         display: none; /* Masquer le texte */
