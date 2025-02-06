@@ -102,7 +102,7 @@
 						As the Principal UX Designer, I worked on this project from October to January 2025. This application, developed for a nonprofit organization, aims to streamline the process of order management and tracking. It comprises both a mobile and a web application, each tailored to specific user roles and needs. 
 					</p>
 					<p>
-						The mobile application is designed for <strong>Order Assigners</strong> and <strong>Order Preparers</strong>, while the web application targets <strong>Managers</strong>. The project presented unique challenges, including limited development time and the need to accommodate multiple user roles with distinct functionalities.
+						The mobile application is designed for <strong>Order Photographer</strong>, while the web application targets <strong>Managers</strong>. The project presented unique challenges, including limited development time and the need to accommodate multiple user roles with distinct functionalities.
 					</p>
 					<p>
 						Development is currently underway, with the applications set to launch in June 2025. Once deployed, the system will enhance efficiency and transparency in order management for the organization and its beneficiaries.
@@ -111,7 +111,7 @@
 					<section id="problem-statement">
 						<h2>Problem Statement</h2>
 						<p>
-							Order management and tracking often rely on manual processes, leading to inefficiencies and errors. The goal of this project was to digitize and centralize these processes, providing a seamless experience for Order Assigners, Preparers, Managers, and end-users. By doing so, we aim to improve order accuracy, save time, and provide better visibility to all stakeholders.
+							Order management and tracking often rely on manual processes, leading to inefficiencies and errors. The goal of this project was to digitize and centralize these processes, providing a seamless experience for Photographer and Managers. By doing so, we aim to improve order accuracy, save time, and provide better visibility to all stakeholders.
 
 							Edit (Jan. 2025) : A modification has been made due to change in the field. We have now only 2 roles : The Photographer and the manager + a new process to manage the orders
 							We also decided, to keep a coherence between our sponsorship to cancel the end user part. They will receive a email for the follow-up until the order is completely processed
@@ -270,8 +270,8 @@
 		
 						<!-- User Assigner Path -->
 						<div class="user-path">
-							<h3>Assigner Path</h3>
-							<img src="/assets/images/assigner-user-path.jpg" alt="User Assigner Path">
+							<h3>Photographer Path</h3>
+							<img src="/assets/images/assigner-user-path.jpg" alt="User Photographer Path">
 							<p>This diagram illustrates the journey of the Photographer using the features for his path.</p>
 						</div>
 		
@@ -285,11 +285,11 @@
 
 					<h2 id="solution">Solution & Features</h2>
 					<p>
-						The solution includes a mobile application for Assigners and Preparers and a web application for Managers. The features are tailored to each user role:
+						The solution includes a mobile application for Photographer and a web application for Managers. The features are tailored to each user role:
 					</p>
 					<ul>
-						<li>✅ <strong>Order Assignment:</strong> Assigners can scan QR codes, upload order photos, and validate assignments.</li>
-						<li>✅ <strong>Order Preparation:</strong> Preparers can update order statuses by scanning QR codes.</li>
+						<li>✅ <strong>Order Assignment:</strong> Photographer can scan QR codes, upload order photos, and validate assignments.</li>
+						<li>✅ <strong>Order Preparation:</strong> Photographer can also update order statuses by scanning QR codes.</li>
 						<li>✅ <strong>Centralized Dashboard:</strong> Managers can view all orders, generate QR codes, and manage user accounts.</li>					</ul>
 					<p>
 						This system ensures efficiency, transparency, and scalability for all stakeholders involved.
@@ -305,7 +305,7 @@
 								all type of users.</p>
 							<!-- Link the Figma prototype -->
 							<div class="container about-content2">
-								<a href="https://www.figma.com/proto/xiUz3qaqyhWWgQZeATjMAp/Maquette-App-%26-Web---hassanates.fr?page-id=96%3A3409&node-id=96-4436&p=f&viewport=135%2C329%2C0.09&t=qaRm3QWLYKvKhsS2-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=172%3A4255&show-proto-sidebar=1" target="_blank" class="btn-about-btn" background="black " color="white" style="background: black;">Photographer path's Figma prototype< i class="fa-brands fa-figma" style="font-size:18px; margin-left:2px; color:white"></i></a>
+								<a href="https://www.figma.com/proto/xiUz3qaqyhWWgQZeATjMAp/Maquette-App-%26-Web---hassanates.fr?page-id=96%3A3409&node-id=96-4436&p=f&viewport=135%2C329%2C0.09&t=qaRm3QWLYKvKhsS2-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=172%3A4255&show-proto-sidebar=1" target="_blank" class="btn-about-btn" background="black " color="white" style="background: black;">Photographer path's Figma prototype <i class="fa-brands fa-figma" style="font-size:18px; margin-left:2px; color:white"></i></a>
 							</div>
 
 							<div class="container about-content2">
@@ -327,24 +327,14 @@
 								 <!-- Vidéo 1 -->
 								 <div class="carousel2-item">
 									<video class="persona-video2" controls>
-										<source src="/assets/videos/hassanates-End-User.mp4" type="video/mp4">
-										Your browser does not support the video tag.
-									</video>
-									<div class="persona-details2">
-										<h4>End User</h4>
-									</div>
-								</div>
-								<!-- Vidéo 2 -->
-								<div class="carousel2-item">
-									<video class="persona-video2" controls>
 										<source src="/assets/videos/hassanates.fr-Assigner-Preparer.mp4" type="video/mp4">
 										Your browser does not support the video tag.
 									</video>
 									<div class="persona-details2">
-										<h4>Assigner&Preparer</h4>
+										<h4>Photographer</h4>
 									</div>
 								</div>
-								<!-- Vidéo 3 -->
+								<!-- Vidéo 2 -->
 								<div class="carousel2-item">
 									<video class="persona-video2" controls>
 										<source src="/assets/videos/hassanates.fr-Admin.mp4" type="video/mp4">
@@ -364,7 +354,6 @@
 								<!-- Points pour le carousel -->
 								<div class="dot" onclick="moveToSlide2(0)"></div>
 								<div class="dot" onclick="moveToSlide2(1)"></div>
-								<div class="dot" onclick="moveToSlide2(2)"></div>
 							</div>
 							
 							<!-- Vignettes des personas -->
@@ -374,9 +363,6 @@
 								</div>
 								<div class="preview-item2" onclick="moveToSlide2(1)">
 									<img class="preview-image2" src="/assets/images/hassanates - v2.png" alt="Video 2" />
-								</div>
-								<div class="preview-item2" onclick="moveToSlide2(2)">
-									<img class="preview-image2" src="/assets/images/hassanates - v3.png" alt="Video 3" />
 								</div>
 							</div>
 						</div>
@@ -391,13 +377,12 @@
 						Early tests involved real-world scenarios with each user group:
 					</p>
 					<ul>
-						<li><strong>✅ Assigners and Preparers:</strong> Tested the mobile application for order scanning and status updates.</li>
+						<li><strong>✅ Photographer:</strong> Tested the mobile application for order scanning and status updates.</li>
 						<li><strong>✅ Managers:</strong> Evaluated the web dashboard for ease of use and comprehensiveness.</li>
-						<li><strong>✅ End-users:</strong> Reviewed the tracking interface for clarity and accessibility.</li>
 					</ul>
 					<h3>User Feedback</h3>
 					<p>
-						Users appreciated the streamlined workflows and intuitive design. Assigners and Preparers found the mobile app easy to use, while Managers praised the centralized features for user and order management.
+						Photographer found the mobile app easy to use, while Managers praised the centralized features for user and order management.
 					</p>
 					<h3>Challenges</h3>
 					<p>
@@ -410,7 +395,7 @@
 					<h3>Impact</h3>
 					<ul>
 						<li>✅ Improved efficiency in order assignment and preparation.</li>
-						<li>✅ Enhanced transparency for end-users tracking their orders.</li>
+						<li>✅ Enhanced transparency for end-users tracking their orders with the Photographer work.</li>
 						<li>✅ Simplified management processes for Managers.</li>
 					</ul>
 					<h2 id="tools">Tools Used</h2>
