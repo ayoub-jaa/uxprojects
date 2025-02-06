@@ -19,6 +19,28 @@ html {
   z-index:2; 
 }
 
+/* Basic Styles */
+#chevron {
+	font-size: 30px;
+	color: white;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+#pulse-text {
+	cursor: pointer;
+}
+
+/* Initial state for animations */
+.bounce {
+	transform: translateY(0);
+	transition: transform 0.3s ease-in-out;
+}
+
+.pulse {
+	transform: scale(1);
+	transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
 
 /* General Body Styling */
 body {
