@@ -27,6 +27,21 @@ html {
 	cursor: pointer;
 }
 
+/* Animation pour descendre de 10px */
+@keyframes bounce {
+	0%, 100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(10px); /* 10px = environ 1cm */
+	}
+}
+
+/* Appliquer l'animation */
+.bounce {
+	animation: bounce 0.5s ease-in-out;
+}
+
 #pulse-text {
 	cursor: pointer;
 }
