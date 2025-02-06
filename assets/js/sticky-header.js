@@ -4,7 +4,7 @@ const burgerButton = document.getElementById('burger-button');
 const menuOverlay = document.getElementById('menu-overlay');
 let lastScrollY = window.scrollY;
 let inactivityTimeout = null; // Pour gérer l'inactivité
-const INACTIVITY_DELAY = 5000; // 5 secondes
+const INACTIVITY_DELAY = 3000; // 3 secondes
 
 // Vérifier si on est sur une page projet
 const isProjectPage = document.body.classList.contains('project-page');
