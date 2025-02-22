@@ -1054,6 +1054,18 @@ footer {
 
 }
 
+@media (max-width: 1500px) {
+
+    #main-header {
+        text-align: center;
+        padding: 150px 20px;
+        background: url('/assets/images/header-bg-1500.jpg') no-repeat center center/cover;
+        color: white;
+        position: relative;
+    }
+
+}
+
 @media (max-width: 980px) {
 
 	#main-header {
