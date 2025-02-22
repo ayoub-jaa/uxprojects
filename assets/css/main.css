@@ -1071,7 +1071,7 @@ footer {
 	#main-header {
         text-align: center;
         padding: 150px 20px;
-        background: url('/assets/images/header-bg.jpg') no-repeat center center/cover;
+        background: url('/assets/images/header-bg-1500.jpg') no-repeat center center/cover;
         color: white;
         position: relative;
     }
@@ -1168,7 +1168,15 @@ footer {
 }
 
 @media (max-width: 770px) {
-	.fixed-nav ul li a span {
+	#main-header {
+        text-align: center;
+        padding: 150px 20px;
+        background: url('/assets/images/header-bg-1500.jpg') no-repeat center center/cover;
+        color: white;
+        position: relative;
+    }
+    
+    .fixed-nav ul li a span {
         display: none; /* Masquer le texte */
     }
 	
@@ -1230,7 +1238,15 @@ footer {
 
 /* Partie mobile*/
 @media (max-width: 600px) {
-	.menu-burger {
+	#main-header {
+        text-align: center;
+        padding: 150px 20px;
+        background: url('/assets/images/header-bg-1500.jpg') no-repeat center center/cover;
+        color: white;
+        position: relative;
+    }
+    
+    .menu-burger {
         display: block;  /* Afficher le menu burger sur mobile */
     }
     
