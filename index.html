@@ -1,164 +1,247 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayoub J. - UX Designer</title>
-    <link rel="stylesheet" href="/assets/css/main.css">
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio UX/UI Designer - Ayoub J." />
+    <title>Ayoub J. – Portfolio UX/Product Designer</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/img/logo-ajux.png" type="image/svg+xml" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-	<link rel="icon" type="image/png" href="/assets/images/ux-design-fav.png">
-</head>
-<body id="index-page">
-	
-	<!-- Main Header Section -->
-	<header id="main-header">
-		<div class="container">
-			<h1>Hi, I'm Ayoub J.</h1>
-			<p style="color: white;">UX & Product Designer, Team Lead Data Analyst</p>
-			<a href="#about" id="bounce-link">
-				<i class="fa-solid fa-chevron-down" id="chevron"></i>
-			</a>
-			<a href="#about" id="pulse-link">
-				<p id="pulse-text" style="font-size:25px; color: white;">Start Navigation</p>
-			</a>
-		</div>
-	</header>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="assets/js/script.js" defer></script>
+  </head>
 
-	<!-- Sticky Header Section -->
-	<header id="sticky-header" class="hidden">
-		<div class="sticky-container">
-			<div class="logo">
-				<a href="/"><img src="/assets/images/ux-design-new.png" alt="Site Logo"></a>
-			</div>
-			<div class="menu-burger">
-				<button id="burger-button">&#9776;</button>
-			</div>
-		</div>
-	</header>
-	<!-- Navigation Overlay -->
-	<nav id="menu-overlay" class="hidden">
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/professional/">Professional</a></li>
-			<li><a href="/volunteer/">Volunteer</a></li>
-			<li><a href="/student/">Student</a></li>
-		</ul>
-	</nav>
+  <body>
+    <!-- NAVIGATION STICKY -->
+    <header class="header sticky">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html"><img src="assets/img/logo-ajux.png" alt="Logo Ayoub J." /></a>
+        </div>
 
+        <!-- Burger Menu Icon (Mobile Only) -->
+      <div class="burger-menu" id="burgerMenu" aria-label="Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
-    <!-- About Section -->
-    <section id="about" style="margin-bottom:20px">
-        
-		<div class="container about-content" style="font-size:25px">
-			<div class="container" style="padding:0px">
-				<h2>Hello world, </h2>
-				<p>
-					I am a UX & Product Designer with expertise in user-centered design, UX research, wireframing, and prototyping. Over the years, I’ve worked on several projects ranging from banking products at BoursoBank to solving data management issues at GEODIS, and addressing societal issues during my university projects.
-					I also work with association as principal UX Designer to give my expertise on app/web design
-				</p>
-			</div>
-		</div>
-		<div class="container about-content3" style="margin-top: 0px; padding-top: 0px;">
-			<div class="container about-content2" style="margin:0px">
-				<a href="https://www.linkedin.com/in/ayoub-j/" target="_blank" class="btn-about-btn" color="white">Visit My LinkedIn <i class="fab fa-linkedin" style="font-size:18px; margin-left:2px; color:white"></i></a>
-			</div>
-			<div class="container about-content2" style="margin:0px">
-				<a href="mailto:ayoub.jaa11@gmail.com" target="_blank" class="btn-about-btn" style="color:white; background:#86112c">Contact me by email <i class="fa-solid fa-envelope" style="font-size:18px; margin-left:2px; color:white"></i></a>
-			</div>
-		</div>
-    </section>
-	
-	<section id="projects" style="background-color: #5c3a47; padding-bottom: 60px;">
-		<div class="container">
-			<h2 style="color: white;">Type of projects</h2>
-			<div class="projects-grid">
-				<div class="project-item">
-					<a href="/professional/" class="mobile-link">
-						<img src="/assets/images/professional.jpg" alt="As Professional">
-					</a>
-					<img src="/assets/images/professional.jpg" alt="As Professional" class="desktop-link">
-					<div class="overlay">
-						<h3>As a Professional</h3>
-						<p style="color: white; font-size: 15px;">Projects we designed at BoursoBank and GEODIS</p>
-						<a href="/professional/" class="btn project-btn">View Details</a>
-					</div>
-				</div>
-				<div class="project-item">
-					<a href="/volunteer/" class="mobile-link">
-						<img src="/assets/images/volunteer.jpg" alt="As Volunteer">
-					</a>
-					<img src="/assets/images/volunteer.jpg" alt="As Volunteer" class="desktop-link">
-					<div class="overlay">
-						<h3>As a Volunteer</h3>
-						<p style="color: white; font-size: 15px;">In my free time, I am UX Designer for educational/humanitarian association(s)</p>
-						<a href="/volunteer/" class="btn project-btn">View Details</a>
-					</div>
-				</div>
-				<div class="project-item">
-					<a href="/student/" class="mobile-link">
-						<img src="/assets/images/student.jpg" alt="As Student">
-					</a>
-					<img src="/assets/images/student.jpg" alt="As Student" class="desktop-link">
-					<div class="overlay">
-						<h3>As a Student</h3>
-						<p style="color: white; font-size: 15px;">Making societal impacts through design during my studies</p>
-						<a href="/student/" class="btn project-btn">View Details</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+        <nav class="nav" id="navMenu">
+          <ul>
+            <li><a href="#about" data-lang="fr">À propos</a><a href="#about" data-lang="en" style="display:none">About</a></li>
+            <li><a href="#projects" data-lang="fr">Projets</a><a href="#projects" data-lang="en" style="display:none">Projects</a></li>
+            <li><a href="#simplyux" data-lang="fr">Simply UX</a><a href="#simplyux" data-lang="en" style="display:none">Simply UX</a></li>
+            <li class="lang-mobile">
+              <div class="lang-switch">
+                <input type="checkbox" id="lang-toggle" />
+                <label for="lang-toggle">
+                  <span class="lang fr">FR</span>
+                  <span class="slider"></span>
+                  <span class="lang en">EN</span>
+                </label>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-	
-	<section id="about me">
+    <!-- LANG FR -->
+    <div data-lang="fr">
+      <!-- HERO SECTION -->
+      <section class="hero">
         <div class="container">
-            <h2 style="margin-bottom:0px">About me</h2>
-            <div class="container about-content3" style="margin-top: 0px;padding-top: 0px;">
-				<img src="/assets/images/profil.jpg" alt="Ayoub J. - UX Designer" class="about-photo">
-				<div class="container about-content-block">
-					<p>
-					  With over 7 years of experience as a <strong>UX Designer</strong> and <strong>IT professional</strong>, I specialize in creating user-centric solutions that bridge the gap between design and technology. My work spans various industries, including logistics, banking, and IT support. Here’s a snapshot of my journey:
-					</p>
-					<ul>
-					  <li><strong>UX Design Expertise</strong>: Designed intuitive interfaces and workflows, including a <strong>web app for managing Office365 accounts</strong> at GEODIS, which <strong>automated processes</strong>, reduced errors to nearly zero, and streamlined HR and IT data integration.</li>
-					  <li><strong>Leadership</strong>: Led a global IT team of 3, introduced effective processes, and ensured delivery of <strong>user-focused solutions</strong> across diverse business needs.</li>
-					  <li><strong>Data Optimization</strong>: Co-designed a system to monitor and process <strong>HR application data flows</strong>, transforming incomprehensible logs into actionable insights through tools like EDI and Power Automate.</li>
-					  <li><strong>Problem-Solving</strong>: Tackled complex technical challenges, aligning IT systems (e.g., IAM and HR tools) with business objectives, leading to significant improvements in data quality and productivity.</li>
-					</ul>
-					<p>
-					  My approach revolves around <strong>listening to users</strong>, understanding their challenges, and transforming those insights into practical designs. 
-					</p>
-					<p>
-					  Beyond my professional work, I dedicate part of my time to volunteering as a <strong>UX consultant for non-profits</strong>, helping organizations overcome resource limitations while delivering impactful, user-centered solutions.
-					</p>
-				</div>
-			</div>
+          <h1>Salut, moi c’est <span class="highlight">Ayoub J.</span></h1>
+          <p>UX/Product Designer avec un solide bagage IT, je conçois des expériences simples, intuitives et impactantes, en alliant rigueur technique et sens de l’humain.</p>
+          <p>Depuis 2020, je travaille en remote, avec des équipes basées partout en France. Je suis à l’aise en hybride, et je manage mon équipe à distance depuis 2022.</p>
+          <p>J’accorde une importance particulière à l’écoute des utilisateurs, au travail en co-construction avec les parties prenantes, et à une transmission claire vers les équipes de développement.</p>
+          <p>J’ai travaillé sur des outils internes stratégiques (RH, IT), des apps mobiles éducatives, et des parcours e-commerce à fort trafic. Mon objectif : améliorer concrètement le quotidien des utilisateurs.</p>
+          <p>Je m’adapte à tout secteur, car je crois que l’UX ne se limite pas à un domaine : elle commence toujours par une bonne question.</p>
+          <div class="buttons-hero">
+            <a href="https://www.linkedin.com/in/ayoub-j/" class="btn-secondary" data-lang="fr">Voir mon profil LinkedIn <i class="fab fa-linkedin"></i></a>
+            <a href="mailto:ayoub.jaa11@gmail.com" class="btn-secondary">Me contacter <i class="fas fa-envelope"></i></a>
+            <a href="assets/files/Ayoub_JAA_CV.pdf" class="btn-secondary" target="_blank">Voir mon CV <i class="fas fa-file-alt"></i></a>
+          </div>
         </div>
-    </section>
-	
-	<button id="scrollToTopBtn" class="scroll-to-top">
-		<i class="fa fa-chevron-up"></i>
-	</button>
+      </section>
+    </div>
 
-   <!-- Footer Section -->
-    <footer>
-		<div class="container-connect">
-            <h2>Connect with Me</h2>
+    <!-- LANG EN -->
+    <div data-lang="en" style="display: none;">
+      <section class="hero">
+        <div class="container">
+          <h1>Hi, I'm <span class="highlight">Ayoub J.</span></h1>
+          <p>UX/Product Designer with a strong IT background, I design simple, intuitive, and impactful experiences—balancing technical precision with human insight.</p>
+          <p>Since 2020, I’ve been working remotely with teams across France. I’m comfortable in hybrid environments and have been leading my team remotely since 2022.</p>
+          <p>I place great value on listening to users, collaborating closely with stakeholders, and handing over clean, clear specs to developers.</p>
+          <p>I’ve designed strategic internal tools (HR, IT), educational mobile apps, and high-traffic e-commerce flows. My goal: make a real difference in users’ daily lives.</p>
+          <p>I adapt to any industry, because UX doesn’t start with answers. It starts with the right questions.</p>
+          <div class="buttons-hero">
+            <a href="https://www.linkedin.com/in/ayoub-j/" class="btn-secondary">See my LinkedIn profilte <i class="fab fa-linkedin"></i></a>
+            <a href="mailto:ayoub.jaa11@gmail.com" class="btn-secondary">Contact me <i class="fas fa-envelope"></i></a>
+            <a href="assets/files/Ayoub_JAA_CV.pdf" target="_blank" class="btn-secondary">See my resume <i class="fas fa-file-alt"></i></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 data-lang="fr">À propos</h2>
+        <h2 data-lang="en" style="display:none">About</h2>
+        <div class="about-content">
+          <img src="assets/img/profil.jpg" alt="Ayoub J." class="portrait" />
+          <div>
+            <p data-lang="fr">UX/UI Designer avec une appétence forte pour l’IT, je conçois des expériences utilisateurs simples, intuitives et impactantes.</p>
+            <p data-lang="en" style="display:none">UX/UI Designer with strong IT affinity, I craft simple, intuitive, and impactful user experiences.</p>
+
+            <p data-lang="fr">Depuis 2020, je travaille en remote. Je suis à l’aise en hybride, et je manage mon équipe à distance depuis 2022.</p>
+            <p data-lang="en" style="display:none">Since 2020, I work remotely. I’m comfortable with hybrid setups and manage my team remotely since 2022.</p>
+
+            <p data-lang="fr">Je m’adapte à tout secteur. Mon approche ? Rendre l’utile agréable, et l’agréable utile.</p>
+            <p data-lang="en" style="display:none">I adapt to any sector. My approach? Make the useful enjoyable and the enjoyable useful.</p>
+
+            <!-- Teaser Recommendations -->
+            <p data-lang="fr">On dit souvent que je rends les choses simples sans les simplifier. Mes collègues et managers en parlent mieux que moi :</p>
+            <p data-lang="en" style="display:none">People say I make things simple without oversimplifying. See what my colleagues and managers say:</p>
+
+            <div class="buttons-hero">
+              <a href="about.html" class="btn-secondary" data-lang="fr">En savoir plus</a>
+              <a href="about.html" class="btn-secondary" data-lang="en" style="display:none">Learn more</a>
+              <a href="#recommendations" class="btn-secondary" data-lang="fr">Lire les recommandations</a>
+              <a href="#recommendations" class="btn-secondary" data-lang="en" style="display:none">Read recommendations</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- PROJETS SECTION -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 data-lang="fr">Projets</h2>
+        <h2 data-lang="en" style="display: none;">Projects</h2>
+        <div class="grid">
+          <a href="projects/geodis.html" class="project-card">
+            <img src="assets/img/thumb-geodis.jpg" alt="Projet GEODIS" />
+            <h3 data-lang="fr">Provisioning Automatisé</h3>
+            <h3 data-lang="en" style="display:none">Automated Provisioning</h3>
+            <p data-lang="fr">Centraliser la création de comptes à partir des données RH.</p>
+            <p data-lang="en" style="display:none">Centralizing account creation from HR data.</p>
+          </a>
+          <a href="projects/hassanates.html" class="project-card">
+            <img src="assets/img/thumb-hassanates-main.jpg" alt="Projet Hassanates" />
+            <h3 data-lang="fr">Application terrain humanitaire</h3>
+            <h3 data-lang="en" style="display:none">Humanitarian Field App</h3>
+            <p data-lang="fr">Suivi des dons de moutons en temps réel, pour l’Afrique Centrale.</p>
+            <p data-lang="en" style="display:none">Real-time tracking of sheep donations in Central Africa.</p>
+          </a>
+          <a href="projects/teacher-app.html" class="project-card">
+            <img src="assets/img/thumb-teacher-main.jpg" alt="Teacher App" />
+            <h3 data-lang="fr">Communication Parents-Profs</h3>
+            <h3 data-lang="en" style="display:none">Parent-Teacher Communication</h3>
+            <p data-lang="fr">Application mobile éducative pour l’Institut Malik Ibn Anas.</p>
+            <p data-lang="en" style="display:none">Educational mobile app for the Malik Ibn Anas Institute.</p>
+          </a>
+          <a href="projects/card-schedule.html" class="project-card">
+            <img src="assets/img/thumb-schedule.jpg" alt="Calendrier débit différé" />
+            <h3 data-lang="fr">Calendrier Débit Différé</h3>
+            <h3 data-lang="en" style="display:none">Deferred Debit Calendar</h3>
+            <p data-lang="fr">Visualisation claire et responsive du calendrier bancaire.</p>
+            <p data-lang="en" style="display:none">Clear and responsive view of the banking schedule.</p>
+          </a>
+          <a href="projects/boursorama-bs.html" class="project-card">
+            <img src="assets/img/thumb-bs.jpg" alt="BoursoShop" />
+            <h3 data-lang="fr">BoursoShop – Multiple Offers</h3>
+            <h3 data-lang="en" style="display:none">BoursoShop – Multiple Offers</h3>
+            <p data-lang="fr">Optimisation de l’UX mobile pour la boutique partenaires.</p>
+            <p data-lang="en" style="display:none">UX optimization for the partner shop on mobile.</p>
+          </a>
+          <a href="projects/migrant.html" class="project-card">
+            <img src="assets/img/Migrant-Simulator.jpg" alt="Migrant Simulator" />
+            <h3 data-lang="fr">Migrant Simulator</h3>
+            <h3 data-lang="en" style="display:none">Migrant Simulator</h3>
+            <p data-lang="fr">Un simulateur de migrant réalisés en Master HCI.</p>
+            <p data-lang="en" style="display:none">A moigrant simulator made during the HCI Master.</p>
+          </a>
+          <a href="projects/windeo.html" class="project-card">
+            <img src="assets/img/windeo.png" alt="Windeo" />
+            <h3 data-lang="fr">Windeo</h3>
+            <h3 data-lang="en" style="display:none">Windeo</h3>
+            <p data-lang="fr">Un afficheur de météo réalisés pour le Hackathon 2018.</p>
+            <p data-lang="en" style="display:none">A weather display made of the Hackathon 2018.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIMPLY UX -->
+    <section id="simplyux" class="section simplyux">
+      <div class="container">
+        <h2>Simply UX</h2>
+        <p data-lang="fr">Une série de publications UX chaque semaine : <strong>vulgarisation, jeux vidéo et plus</strong>.</p>
+        <p data-lang="en" style="display:none">A weekly series of UX content: <strong>education, video games & more</strong>.</p>
+        <div class="container">
+          <div class="grid">
+            <a href="https://www.linkedin.com/embed/feed/update/urn:li:share:7310263737817452545?collapsed=1" class="project-card">
+              <img src="assets/img/vulgarux.jpg" alt="Vulgar’UX" />
+              <h3 data-lang="fr">Vulgar’UX</h3>
+              <h3 data-lang="en" style="display:none">Vulgar’UX</h3>
+              <p data-lang="fr">Chaque mardi, je vulgarise un terme UX.</p>
+              <p data-lang="en" style="display:none">Every tuesday, I vulgarised an UX term.</p>
+            </a>
+            <a href="https://www.linkedin.com/embed/feed/update/urn:li:share:7335058628237795328?collapsed=1" class="project-card">
+              <img src="assets/img/jeUXvideo.jpg" alt="JeUX Videos" />
+              <h3 data-lang="fr">JeUX Vidéos</h3>
+              <h3 data-lang="en" style="display:none">UX Games</h3>
+              <p data-lang="fr">Voir les jeux vidéo, avec le prisme de l'UX.</p>
+              <p data-lang="en" style="display:none">See video games, with UX point of view.</p>
+            </a>
+            </a>
+          </div>
+      </div>
+        <a href="uxcontent.html" class="btn-secondary" data-lang="fr">En savoir plus</a>
+        <a href="uxcontent.html" class="btn-secondary" data-lang="en" style="display:none">Learn more</a>
+      </div>
+    </section>
+
+    <!-- RECOMMANDATIONS LINKEDIN -->
+    <section id="recommendations" class="section recommendations">
+      <div class="container">
+        <h2 data-lang="fr">Recommandations</h2>
+        <h2 data-lang="en" style="display: none">Recommendations</h2>
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div class="elfsight-app-5bdf72b9-7529-4a4d-bba6-e65166b408f0" data-elfsight-app-lazy></div>
+      </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container-connect">
             <a href="https://www.linkedin.com/in/ayoub-j/" class="icon-linkedin" aria-label="LinkedIn">
-				<i class="fa-brands fa-linkedin"></i>
-			</a> <a href="mailto:ayoub.jaa11@gmail.com" class="icon-mail" aria-label="Email">
-				<i class="fas fa-envelope"></i>
-			</a>
+              <i class="fa-brands fa-linkedin"></i>
+            </a> 
+            <a href="mailto:ayoub.jaa11@gmail.com" class="icon-mail" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://github.com/ayoub-jaa" class="icon-github" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
         </div>
-        <div class="container-cc">
-            <p> &copy; 2025 Ayoub J. | All rights reserved.</p>
-        </div>
+      <div class="container">
+        <p data-lang="fr">&copy; 2025 Ayoub J. – Tous droits réservés.</p>
+        <p data-lang="en" style="display:none">&copy; 2025 Ayoub J. – All rights reserved.</p>
+      </div>
     </footer>
 
-	<script src="/assets/js/bouncing-effect.js" defer></script>
-	<script src="/assets/js/scroll-to-top.js"></script>
-	<script src="/assets/js/sticky-header.js"></script>
-
-</body>
+    <!-- SCROLL TO TOP -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Revenir en haut">
+      <img src="assets/img/icon-arrow-up.svg" alt="Scroll to top" />
+    </button>
+  </body>
 </html>
