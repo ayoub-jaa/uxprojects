@@ -1,0 +1,17 @@
+# Active le module de réécriture
+RewriteEngine On
+
+# 1. Redirige /about vers /about.html si le fichier existe
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^/]+)/?$ $1.html [L]
+
+# 2. Redirige /uxcontent vers /uxcontent.html si le fichier existe
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^uxcontent/?$ uxcontent.html [L]
+
+# 3. Redirige /projects/slug vers /projects/slug.html
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^projects/([^/]+)/?$ projects/$1.html [L]
+
+# (Optionnel) Garde l'accès aux .html explicites
+# Rien à faire, Apache le gère nativement
